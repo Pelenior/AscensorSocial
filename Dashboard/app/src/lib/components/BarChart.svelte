@@ -34,6 +34,9 @@
       .domain([0, d3.max(data, d=>d.value)||1]).nice()
       .range([innerH, 0]);
 
+    
+
+
     g.append('g')
       .attr('transform', `translate(0,${innerH})`)
       .call(d3.axisBottom(x))
@@ -50,7 +53,8 @@
       .attr('x', d=>x(d.label))
       .attr('y', d=>y(d.value))
       .attr('width', x.bandwidth())
-      .attr('height', d=>innerH - y(d.value));
+      .attr('height', d=>innerH - y(d.value))
+      .attr('fill', d => d.value > 0.8 ? 'red' : 'blue');
 
     g.append('text')
       .attr('x', 0)
