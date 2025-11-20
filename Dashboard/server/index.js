@@ -8,14 +8,14 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Metodo de carga del CSV
-async function cargarCSV() {
+// Método de carga genérico para cualquier CSV con columnas numéricas específicas
+async function cargarCSV(fileName, numericColumns = ['ingresos_padres', 'ingresos_hijo']) {
   const __dirname = path.dirname(fileURLToPath(import.meta.url));
   try {
     // Path del csv
-    const csvPath = path.join(__dirname, '..', 'data', 'ascensor_social.csv');
+    const csvPath = path.join(__dirname, '..', 'data', fileName);
     const fileContent = await fs.readFile(csvPath, 'utf-8');
-    const lines = fileContent.trim().split('\n');
+    const lines = fileContent.trim().replace(/\r/g, "").split('\n');
     const header = lines.shift().split(',').map(h => h.trim());
 
     // Control de errores por si faltan columnas
@@ -29,8 +29,12 @@ async function cargarCSV() {
       const entry = { id: index + 1 };
       header.forEach((key, i) => {
         const value = values[i] ? values[i].trim() : '';
-        if (key === 'ingresos_padres' || key === 'ingresos_hijo') {
-          entry[key] = parseFloat(value) || 0;
+        if (numericColumns.includes(key)) {
+          const num = parseFloat(value);
+          // Solo asignamos si es un número válido, de lo contrario queda undefined
+          if (!isNaN(num)) {
+            entry[key] = num;
+          }
         } else {
           entry[key] = value;
         }
@@ -38,10 +42,11 @@ async function cargarCSV() {
       return entry;
     });
     console.log(`Loaded ${data.length} records from CSV.`);
-    return data;
+    // Filtramos filas donde las columnas numéricas clave no son válidas
+    return data.filter(d => numericColumns.every(col => typeof d[col] === 'number'));
   } catch (error) {
     // Devuelve un array vacío si hay un error
-    console.error("Error loading data from CSV:", error);
+    console.error(`Error loading data from ${fileName}:`, error);
     return [];
   }
 }
@@ -66,29 +71,55 @@ function mobilityIndex(p, c) {
 }
 
 async function startServer() {
-  const DB = await cargarCSV();
+  // Objeto para almacenar todos nuestros datasets
+  const DATASETS = {};
+
+  // Cargar todos los datasets al inicio
+  DATASETS['ascensor_social'] = await cargarCSV('ascensor_social.csv', ['ingresos_padres', 'ingresos_hijo']);
+  DATASETS['curva_movilidad_nacional'] = await cargarCSV('curva_movilidad_nacional.csv', ['centil_padres', 'centil_hijo', 'centil_hijo_loess']);
 
   // --- API ---
+
+  // Nuevo endpoint para listar los datasets disponibles
+  app.get('/api/v1/datasets', (req, res) => {
+    res.json(Object.keys(DATASETS));
+  });
+
   app.get('/api/v1/points', (req, res) => {
+    const datasetName = req.query.dataset || 'ascensor_social'; // Default a 'ascensor_social'
+    const DB = DATASETS[datasetName];
+
     if (!DB || DB.length === 0) {
       return res.status(500).json({ error: "Data not loaded or empty." });
     }
-    // optional limit
-    const limit = Math.min(Number(req.query.limit) || 500, 2000);
-    const sample = DB.slice(0, limit);
-    res.json(sample);
+    // Ya no limitamos los datos, enviamos todo el dataset solicitado
+    res.json(DB);
   });
 
   app.get('/api/v1/summary', (req, res) => {
+    const datasetName = req.query.dataset || 'ascensor_social';
+    const DB = DATASETS[datasetName];
+
     if (!DB || DB.length === 0) {
       return res.status(500).json({ error: "Data not loaded or empty." });
     }
+
+    // Este endpoint solo tiene sentido para 'ascensor_social'
+    if (datasetName !== 'ascensor_social') {
+      return res.json({
+        n: DB.length,
+        corr: null,
+        regionMobility: []
+      });
+    }
+
     const xs = DB.map(d => d.ingresos_padres);
     const ys = DB.map(d => d.ingresos_hijo);
     const corr = pearson(xs, ys);
 
     const byRegion = {};
     DB.forEach(d => {
+      if (!d.region) return; // Ignorar si no hay región
       const m = mobilityIndex(d.ingresos_padres, d.ingresos_hijo);
       if (!byRegion[d.region]) byRegion[d.region] = { count: 0, sumMob: 0 };
       byRegion[d.region].count += 1;
