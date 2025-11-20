@@ -1,0 +1,1501 @@
+id,pais,region,sexo,edad,ingresos_padres,educ_padres,educ_hijo,ingresos_hijo,ocupacion_hijo
+1,España,Castilla-La Mancha,hombre,43,16394.19,Primaria,Primaria,13854.97,Servicios básicos
+2,España,País Vasco,mujer,49,20030.37,Secundaria,FP,25867.96,Técnico/a
+3,España,La Rioja,mujer,29,15837.25,FP,FP,15512.73,Técnico/a junior
+4,España,Extremadura,mujer,32,19943.5,Secundaria,Secundaria,18919.46,Técnico/a junior
+5,España,Asturias,mujer,31,18431.99,FP,FP,20980.16,Técnico/a junior
+6,España,Asturias,mujer,38,13999.04,Primaria,Sin estudios,12826.58,Servicios básicos
+7,España,Andalucía,hombre,48,14210.8,Primaria,Primaria,19258.62,Técnico/a junior
+8,España,Murcia,hombre,47,22651.64,FP,FP,21775.83,Técnico/a junior
+9,España,Extremadura,hombre,27,20619.31,,FP,24141.56,Técnico/a
+10,España,La Rioja,hombre,42,19063.04,FP,Secundaria,19342.29,Técnico/a junior
+11,España,Andalucía,hombre,40,12088.25,Sin estudios,Sin estudios,14407.97,Servicios básicos
+12,España,País Vasco,hombre,47,22649.02,FP,Universidad,37436.94,Especialista
+13,España,Madrid,hombre,43,23993.19,FP,Universidad,33310.59,Especialista
+14,España,Baleares,mujer,43,20208.32,FP,Universidad,31545.61,Técnico/a
+15,España,Baleares,mujer,42,16443.37,Secundaria,Secundaria,19048.5,Técnico/a junior
+16,España,Baleares,mujer,44,14457.42,FP,FP,25405.25,Técnico/a
+17,España,Cantabria,hombre,40,14289.48,Secundaria,Secundaria,20474.16,Técnico/a junior
+18,España,Comunidad Valenciana,hombre,32,16382.23,Secundaria,Secundaria,21078.63,Técnico/a junior
+19,España,Cataluña,mujer,52,21130.13,Universidad,Postgrado,30697.78,Técnico/a
+20,España,Cantabria,hombre,25,16891.91,Secundaria,FP,19905.16,Técnico/a junior
+21,España,Extremadura,mujer,41,19737.59,,FP,28405.28,Técnico/a
+22,España,Asturias,hombre,36,12132.09,Sin estudios,Sin estudios,12433.42,Servicios básicos
+23,España,Cantabria,mujer,54,22845.55,FP,FP,30449.12,Técnico/a
+24,España,Castilla y León,mujer,45,25304.02,FP,FP,24280.84,Técnico/a
+25,España,Cataluña,mujer,35,16557.81,FP,Universidad,28403.73,Técnico/a
+26,España,Madrid,mujer,29,15535.79,FP,FP,23167.35,Técnico/a
+27,España,Baleares,mujer,51,26161.63,FP,Universidad,31123.77,Técnico/a
+28,España,Cataluña,mujer,36,17438.7,Secundaria,FP,21990.17,Técnico/a junior
+29,España,Comunidad Valenciana,hombre,41,16166.43,Secundaria,Secundaria,16810.04,Técnico/a junior
+30,España,Andalucía,hombre,30,13550.34,Primaria,Sin estudios,15901.23,Técnico/a junior
+31,España,Extremadura,mujer,25,17870.76,Secundaria,Primaria,21154.12,Técnico/a junior
+32,España,Baleares,hombre,29,15105.54,FP,Universidad,27239.13,Técnico/a
+33,España,Andalucía,hombre,49,14883.56,FP,Universidad,23816.11,Técnico/a
+34,España,País Vasco,mujer,52,19373.59,,Secundaria,27440.61,Técnico/a
+35,España,País Vasco,mujer,38,25859.95,Secundaria,Primaria,23970.76,Técnico/a
+36,España,Madrid,mujer,29,18734.6,Secundaria,Primaria,18693.99,Técnico/a junior
+37,España,Cantabria,mujer,46,13362.04,Sin estudios,Primaria,12719.53,Servicios básicos
+38,España,Aragón,hombre,48,13129.02,Sin estudios,Primaria,20563.82,Técnico/a junior
+39,España,Galicia,mujer,51,18962.85,FP,Secundaria,19380.39,Técnico/a junior
+40,España,Cataluña,hombre,25,18391.46,Secundaria,Secundaria,20684.29,Técnico/a junior
+41,España,Aragón,hombre,54,20930.8,FP,Universidad,25088.49,Técnico/a
+42,España,Cataluña,mujer,42,18218.84,Primaria,Primaria,24609.73,Técnico/a
+43,España,Andalucía,hombre,40,16992.77,Secundaria,Secundaria,17641.34,Técnico/a junior
+44,España,Navarra,mujer,33,19837.49,Secundaria,Secundaria,24393.49,Técnico/a
+45,España,Canarias,hombre,43,18621.72,Secundaria,Primaria,17535.37,Técnico/a junior
+46,España,Galicia,mujer,46,15277.16,FP,Secundaria,14645.39,Servicios básicos
+47,España,Castilla y León,hombre,29,19468.54,,Secundaria,19597.12,Técnico/a junior
+48,España,Comunidad Valenciana,hombre,51,18153.32,FP,FP,22474.5,Técnico/a
+49,España,Comunidad Valenciana,mujer,26,24062.61,FP,FP,25164.46,Técnico/a
+50,España,Baleares,hombre,54,22480.04,,FP,27252.39,Técnico/a
+51,España,País Vasco,hombre,39,23502.24,Universidad,Universidad,31238.16,Técnico/a
+52,España,Madrid,hombre,31,19159.3,Secundaria,Secundaria,20348.75,Técnico/a junior
+53,España,País Vasco,hombre,28,20395.56,FP,FP,26603.27,Técnico/a
+54,España,Navarra,hombre,25,18097.48,Secundaria,FP,24454.45,Técnico/a
+55,España,Extremadura,mujer,37,18760.93,Secundaria,Secundaria,15323.33,Técnico/a junior
+56,España,Navarra,mujer,44,17177.12,Secundaria,Secundaria,24276.42,Técnico/a
+57,España,Aragón,hombre,46,15544.82,Secundaria,Primaria,9000.0,Servicios básicos
+58,España,Baleares,mujer,31,21637.97,Universidad,Universidad,31425.66,Técnico/a
+59,España,Andalucía,hombre,39,14319.61,Secundaria,Secundaria,20075.13,Técnico/a junior
+60,España,Castilla y León,hombre,47,19476.17,Secundaria,Secundaria,18652.54,Técnico/a junior
+61,España,Castilla-La Mancha,mujer,38,21373.27,FP,FP,16771.71,Técnico/a junior
+62,España,Canarias,mujer,47,21501.89,FP,Universidad,27406.55,Técnico/a
+63,España,Madrid,hombre,43,18850.89,Primaria,Primaria,21240.7,Técnico/a junior
+64,España,Castilla y León,mujer,46,14989.24,Secundaria,Secundaria,14724.64,Servicios básicos
+65,España,Cantabria,hombre,53,14325.69,Secundaria,Secundaria,15541.09,Técnico/a junior
+66,España,Comunidad Valenciana,mujer,48,16188.69,Secundaria,FP,24968.59,Técnico/a
+67,España,Asturias,hombre,44,15234.46,Primaria,Secundaria,19267.39,Técnico/a junior
+68,España,Madrid,mujer,53,16424.79,FP,FP,19043.9,Técnico/a junior
+69,España,Andalucía,hombre,48,13598.79,Sin estudios,Primaria,17881.91,Técnico/a junior
+70,España,País Vasco,mujer,42,26778.76,FP,Universidad,31221.9,Técnico/a
+71,España,Madrid,hombre,34,25192.49,Secundaria,Secundaria,23425.35,Técnico/a
+72,España,Baleares,mujer,33,11855.03,Sin estudios,Sin estudios,17194.5,Técnico/a junior
+73,España,Andalucía,hombre,49,33258.48,Universidad,Postgrado,39466.87,Especialista
+74,España,Madrid,hombre,32,27429.74,Secundaria,FP,29127.22,Técnico/a
+75,España,Galicia,mujer,50,15699.75,Primaria,Primaria,15393.67,Técnico/a junior
+76,España,La Rioja,mujer,54,20374.86,FP,FP,22831.13,Técnico/a
+77,España,Madrid,mujer,53,18823.66,Secundaria,FP,22946.3,Técnico/a
+78,España,Andalucía,hombre,34,13967.18,Sin estudios,Primaria,20268.25,Técnico/a junior
+79,España,Castilla y León,hombre,41,13864.91,Sin estudios,Sin estudios,10011.15,Servicios básicos
+80,España,Aragón,hombre,26,20395.93,FP,FP,22876.47,Técnico/a
+81,España,Murcia,mujer,30,24854.77,Universidad,Universidad,24568.43,Técnico/a
+82,España,Extremadura,mujer,50,21014.57,Universidad,FP,27307.35,Técnico/a
+83,España,Castilla y León,hombre,29,30186.08,Universidad,Postgrado,36248.33,Especialista
+84,España,Andalucía,hombre,52,15341.79,Secundaria,Secundaria,15205.47,Técnico/a junior
+85,España,Cantabria,no_binario,54,15413.53,FP,Universidad,26635.86,Técnico/a
+86,España,Castilla y León,mujer,33,14976.59,Secundaria,Secundaria,10717.71,Servicios básicos
+87,España,La Rioja,hombre,29,17395.63,Secundaria,FP,23190.49,Técnico/a
+88,España,Extremadura,mujer,42,26197.87,Secundaria,FP,30673.24,Técnico/a
+89,España,Murcia,mujer,50,22492.32,FP,FP,25404.53,Técnico/a
+90,España,Cataluña,hombre,44,17335.12,Secundaria,Secundaria,20404.11,Técnico/a junior
+91,España,Aragón,hombre,33,14147.36,FP,FP,16222.63,Técnico/a junior
+92,España,La Rioja,no_binario,41,23612.16,FP,Universidad,32749.41,Especialista
+93,España,Madrid,mujer,51,16694.93,Primaria,Sin estudios,,Técnico/a junior
+94,España,Comunidad Valenciana,mujer,41,15689.77,Primaria,Primaria,14895.59,Servicios básicos
+95,España,Madrid,hombre,36,24625.46,Universidad,Universidad,30924.35,Técnico/a
+96,España,Cataluña,hombre,31,20180.32,Secundaria,FP,30597.87,Técnico/a
+97,España,Comunidad Valenciana,mujer,51,16035.45,Primaria,Sin estudios,18194.21,Técnico/a junior
+98,España,Castilla-La Mancha,mujer,27,18828.33,Secundaria,Primaria,12172.43,Servicios básicos
+99,España,Andalucía,mujer,34,13197.54,Sin estudios,Sin estudios,14563.1,Servicios básicos
+100,España,Aragón,hombre,26,16564.55,FP,FP,20974.59,Técnico/a junior
+101,España,Andalucía,mujer,49,15720.6,Secundaria,Secundaria,19940.99,Técnico/a junior
+102,España,Extremadura,mujer,27,17782.37,Primaria,Secundaria,20023.23,Técnico/a junior
+103,España,Castilla y León,mujer,40,16390.34,FP,FP,19906.24,Técnico/a junior
+104,España,Cataluña,mujer,26,15482.89,Secundaria,Primaria,19743.3,Técnico/a junior
+105,España,Navarra,mujer,52,19855.0,Secundaria,Secundaria,19367.53,Técnico/a junior
+106,España,Canarias,hombre,48,25736.79,FP,FP,38361.0,Especialista
+107,España,Castilla-La Mancha,mujer,34,18419.66,,FP,23153.06,Técnico/a
+108,España,Madrid,hombre,30,34258.83,FP,Universidad,39252.81,Especialista
+109,España,Canarias,mujer,46,12719.48,Sin estudios,Primaria,22401.22,Técnico/a
+110,España,Andalucía,hombre,50,14075.61,Primaria,Sin estudios,10808.72,Servicios básicos
+111,España,Cantabria,hombre,35,20164.9,FP,FP,23218.2,Técnico/a
+112,España,Asturias,hombre,47,33960.1,Universidad,Universidad,31597.41,Técnico/a
+113,España,País Vasco,hombre,31,17440.7,Secundaria,Secundaria,24452.65,Técnico/a
+114,España,Madrid,mujer,51,20344.5,Universidad,Universidad,28597.62,Técnico/a
+115,España,Extremadura,mujer,53,21443.96,FP,FP,26278.08,Técnico/a
+116,España,Murcia,hombre,39,27842.17,Secundaria,Primaria,23854.26,Técnico/a
+117,España,Madrid,no_binario,30,18660.6,FP,Universidad,31972.83,Técnico/a
+118,España,Baleares,hombre,44,15979.72,Primaria,Primaria,21180.22,Técnico/a junior
+119,España,Navarra,hombre,51,18003.38,Primaria,Sin estudios,16302.15,Técnico/a junior
+120,España,Comunidad Valenciana,hombre,33,17831.54,Secundaria,Secundaria,15132.41,Técnico/a junior
+121,España,Madrid,mujer,46,19873.41,Secundaria,FP,29802.74,Técnico/a
+122,España,Navarra,mujer,44,22930.29,FP,FP,29928.46,Técnico/a
+123,España,Castilla y León,hombre,36,21603.31,FP,FP,21045.53,Técnico/a junior
+124,España,Aragón,hombre,43,12504.2,Sin estudios,Primaria,18439.77,Técnico/a junior
+125,España,Canarias,mujer,44,15098.11,FP,Universidad,19960.24,Técnico/a junior
+126,España,Castilla-La Mancha,hombre,27,19838.77,Primaria,Primaria,19546.71,Técnico/a junior
+127,España,Madrid,mujer,39,16012.18,,Secundaria,22943.11,Técnico/a
+128,España,Murcia,hombre,26,30815.15,FP,Universidad,31617.76,Técnico/a
+129,España,Andalucía,mujer,54,22155.48,Universidad,Universidad,28454.31,Técnico/a
+130,España,Cataluña,mujer,45,20831.07,FP,Universidad,33610.45,Especialista
+131,España,Castilla-La Mancha,hombre,26,21560.98,Universidad,Universidad,27396.17,Técnico/a
+132,España,Canarias,mujer,46,22971.04,FP,FP,22654.42,Técnico/a
+133,España,Aragón,hombre,27,22316.01,FP,Secundaria,17758.98,Técnico/a junior
+134,España,Castilla y León,hombre,30,20284.88,Universidad,Universidad,25676.42,Técnico/a
+135,España,País Vasco,hombre,39,17964.73,Primaria,Secundaria,18382.7,Técnico/a junior
+136,España,Castilla y León,mujer,51,19393.85,Secundaria,FP,21893.66,Técnico/a junior
+137,España,Cataluña,mujer,34,25098.1,Secundaria,FP,27591.83,Técnico/a
+138,España,Galicia,mujer,33,20466.29,Universidad,Postgrado,33568.62,Especialista
+139,España,Castilla y León,no_binario,25,22284.21,Universidad,Postgrado,32197.61,Especialista
+140,España,País Vasco,hombre,40,24778.01,FP,Universidad,42103.4,Especialista
+141,España,País Vasco,hombre,30,25740.67,FP,Universidad,26761.46,Técnico/a
+142,España,Canarias,hombre,33,15582.87,Secundaria,FP,22390.57,Técnico/a
+143,España,Cataluña,hombre,51,22757.83,Secundaria,Secundaria,,Técnico/a
+144,España,Cantabria,hombre,28,15018.12,FP,FP,17662.99,Técnico/a junior
+145,España,Cantabria,mujer,51,15037.5,Secundaria,Secundaria,18662.68,Técnico/a junior
+146,España,Andalucía,hombre,52,14576.57,Primaria,Primaria,16337.35,Técnico/a junior
+147,España,Extremadura,mujer,26,22309.54,Universidad,Universidad,31982.64,Técnico/a
+148,España,Cataluña,hombre,53,19951.34,Primaria,Primaria,21465.33,Técnico/a junior
+149,España,Andalucía,hombre,28,16766.41,FP,FP,19465.47,Técnico/a junior
+150,España,Cantabria,hombre,25,16785.67,Secundaria,FP,23069.71,Técnico/a
+151,España,Navarra,mujer,43,15981.94,FP,FP,20691.12,Técnico/a junior
+152,España,Canarias,mujer,50,17289.39,Secundaria,Primaria,13863.03,Servicios básicos
+153,España,Asturias,mujer,49,13443.95,Secundaria,FP,19345.84,Técnico/a junior
+154,España,Cataluña,mujer,34,15413.62,Primaria,Primaria,19895.92,Técnico/a junior
+155,España,País Vasco,mujer,45,24158.97,Secundaria,Primaria,23307.5,Técnico/a
+156,España,Canarias,hombre,39,12307.01,Sin estudios,Primaria,16940.43,Técnico/a junior
+157,España,Galicia,hombre,51,26956.27,,FP,25183.26,Técnico/a
+158,España,Madrid,mujer,46,21421.61,FP,FP,28256.51,Técnico/a
+159,España,Canarias,mujer,43,15776.89,Primaria,Primaria,17610.05,Técnico/a junior
+160,España,La Rioja,mujer,40,14355.56,Primaria,Primaria,17062.8,Técnico/a junior
+161,España,Castilla y León,hombre,45,15405.36,Primaria,Sin estudios,16205.8,Técnico/a junior
+162,España,Extremadura,hombre,51,18740.55,FP,Secundaria,28049.57,Técnico/a
+163,España,Extremadura,hombre,48,14311.09,Secundaria,Secundaria,22325.43,Técnico/a
+164,España,Comunidad Valenciana,hombre,46,17662.95,Secundaria,FP,23376.0,Técnico/a
+165,España,Aragón,no_binario,28,22185.19,FP,FP,21820.61,Técnico/a junior
+166,España,Madrid,hombre,26,20347.64,FP,Universidad,29306.71,Técnico/a
+167,España,Castilla y León,mujer,54,25320.91,FP,FP,31857.0,Técnico/a
+168,España,Baleares,hombre,49,14440.42,Primaria,Primaria,16675.89,Técnico/a junior
+169,España,Andalucía,mujer,37,11494.19,Secundaria,Secundaria,16592.33,Técnico/a junior
+170,España,Comunidad Valenciana,hombre,52,21146.73,FP,FP,23323.04,Técnico/a
+171,España,Galicia,mujer,25,22908.07,Universidad,Universidad,29842.65,Técnico/a
+172,España,Andalucía,hombre,41,21506.96,,Universidad,26219.75,Técnico/a
+173,España,Cataluña,hombre,37,26732.43,FP,Secundaria,27532.15,Técnico/a
+174,España,Canarias,hombre,28,17183.2,Secundaria,Primaria,16309.09,Técnico/a junior
+175,España,Galicia,hombre,31,26303.12,FP,Universidad,,Especialista
+176,España,Baleares,mujer,41,37479.66,FP,Universidad,38980.11,Especialista
+177,España,Galicia,mujer,33,24271.77,FP,FP,29094.73,Técnico/a
+178,España,Castilla-La Mancha,mujer,28,15871.23,FP,Universidad,22453.85,Técnico/a
+179,España,País Vasco,mujer,43,21440.31,Secundaria,Secundaria,21257.8,Técnico/a junior
+180,España,Asturias,hombre,25,18552.56,Primaria,Primaria,,Técnico/a junior
+181,España,Castilla y León,mujer,34,19663.78,Secundaria,FP,17360.52,Técnico/a junior
+182,España,Aragón,hombre,28,15605.9,Secundaria,FP,22840.47,Técnico/a
+183,España,Navarra,hombre,33,30177.29,Universidad,FP,24575.44,Técnico/a
+184,España,Murcia,hombre,37,16334.57,Primaria,Primaria,16162.78,Técnico/a junior
+185,España,Canarias,mujer,38,17487.04,Primaria,Primaria,20547.93,Técnico/a junior
+186,España,Galicia,hombre,34,21559.3,Universidad,Postgrado,34020.18,Especialista
+187,España,Madrid,hombre,30,18125.96,FP,FP,20273.74,Técnico/a junior
+188,España,Comunidad Valenciana,mujer,40,25086.6,FP,Secundaria,24375.87,Técnico/a
+189,España,Comunidad Valenciana,hombre,30,20438.06,Universidad,Universidad,31124.05,Técnico/a
+190,España,Canarias,hombre,41,18051.76,FP,FP,20309.14,Técnico/a junior
+191,España,Aragón,mujer,34,19130.28,Secundaria,Secundaria,22406.13,Técnico/a
+192,España,Navarra,hombre,42,21948.63,FP,Secundaria,17875.4,Técnico/a junior
+193,España,Navarra,mujer,51,25071.3,Universidad,Universidad,31150.87,Técnico/a
+194,España,Extremadura,mujer,46,14084.29,Secundaria,Secundaria,18797.38,Técnico/a junior
+195,España,Castilla y León,mujer,42,13138.61,Secundaria,FP,22375.87,Técnico/a
+196,España,Castilla y León,mujer,27,22654.23,FP,Universidad,30505.85,Técnico/a
+197,España,La Rioja,mujer,44,20129.54,Secundaria,Secundaria,16321.1,Técnico/a junior
+198,España,Navarra,mujer,51,18761.02,Primaria,Primaria,18876.15,Técnico/a junior
+199,España,Murcia,hombre,45,22132.87,,Secundaria,27044.99,Técnico/a
+200,España,Madrid,hombre,49,20365.43,FP,Universidad,22692.77,Técnico/a
+201,España,Extremadura,hombre,52,16763.85,Secundaria,Secundaria,22927.97,Técnico/a
+202,España,Aragón,mujer,39,31250.18,Universidad,FP,34796.06,Especialista
+203,España,Asturias,mujer,39,25696.34,Secundaria,Primaria,16010.79,Técnico/a junior
+204,España,Navarra,hombre,28,19166.89,Primaria,Primaria,16215.14,Técnico/a junior
+205,España,Extremadura,mujer,53,17459.07,Secundaria,Secundaria,21668.68,Técnico/a junior
+206,España,Andalucía,mujer,51,13386.95,Sin estudios,Sin estudios,12219.07,Servicios básicos
+207,España,Aragón,hombre,33,14838.76,Primaria,Primaria,21585.72,Técnico/a junior
+208,España,Galicia,mujer,51,23182.54,FP,FP,28830.14,Técnico/a
+209,España,Andalucía,hombre,50,16371.15,Secundaria,Secundaria,14519.65,Servicios básicos
+210,España,Asturias,hombre,43,15136.96,Secundaria,Secundaria,16210.93,Técnico/a junior
+211,España,Comunidad Valenciana,mujer,48,18619.98,Primaria,Primaria,21035.52,Técnico/a junior
+212,España,Galicia,mujer,52,18320.54,Primaria,Secundaria,22801.55,Técnico/a
+213,España,Galicia,hombre,41,16993.05,Secundaria,Secundaria,27411.41,Técnico/a
+214,España,Canarias,mujer,35,14099.5,Secundaria,FP,17466.56,Técnico/a junior
+215,España,La Rioja,mujer,49,16745.31,Primaria,Primaria,22689.11,Técnico/a
+216,España,Canarias,no_binario,33,18542.0,FP,FP,19586.47,Técnico/a junior
+217,España,Castilla y León,mujer,34,23385.35,FP,FP,26977.34,Técnico/a
+218,España,Madrid,hombre,42,21167.89,FP,Universidad,33982.23,Especialista
+219,España,Galicia,no_binario,44,14614.89,Secundaria,Primaria,9000.0,Servicios básicos
+220,España,Murcia,mujer,37,21920.39,FP,Universidad,31175.37,Técnico/a
+221,España,Galicia,mujer,32,17647.03,FP,FP,27180.1,Técnico/a
+222,España,Comunidad Valenciana,mujer,31,15897.4,FP,FP,25287.88,Técnico/a
+223,España,Aragón,mujer,41,12218.57,Sin estudios,Primaria,22935.21,Técnico/a
+224,España,Castilla y León,mujer,45,14841.47,,Secundaria,22056.78,Técnico/a
+225,España,Canarias,hombre,47,14211.53,Secundaria,Secundaria,16514.97,Técnico/a junior
+226,España,Canarias,mujer,39,12815.49,Secundaria,Secundaria,22103.51,Técnico/a
+227,España,País Vasco,hombre,44,15645.3,FP,Secundaria,19246.35,Técnico/a junior
+228,España,Castilla-La Mancha,no_binario,39,15263.76,Primaria,Primaria,17270.29,Técnico/a junior
+229,España,Navarra,hombre,25,23529.11,FP,FP,28209.91,Técnico/a
+230,España,Extremadura,hombre,49,26246.8,Universidad,Universidad,32046.44,Especialista
+231,España,Madrid,mujer,38,15412.36,Secundaria,Secundaria,25936.79,Técnico/a
+232,España,Cataluña,hombre,29,22920.82,Secundaria,Secundaria,33702.45,Especialista
+233,España,Comunidad Valenciana,hombre,35,18413.83,FP,FP,18739.8,Técnico/a junior
+234,España,Cataluña,mujer,40,14745.7,FP,Universidad,25566.77,Técnico/a
+235,España,Baleares,mujer,26,15461.11,Secundaria,FP,24887.61,Técnico/a
+236,España,La Rioja,hombre,32,22196.54,Secundaria,FP,23005.89,Técnico/a
+237,España,Cantabria,mujer,35,17787.34,Primaria,Sin estudios,16738.69,Técnico/a junior
+238,España,Andalucía,mujer,53,11200.87,Sin estudios,Sin estudios,17199.7,Técnico/a junior
+239,España,Galicia,mujer,42,19562.49,Secundaria,Secundaria,23053.3,Técnico/a
+240,España,Baleares,mujer,27,20400.48,Secundaria,Secundaria,24587.51,Técnico/a
+241,España,País Vasco,hombre,54,24049.04,Secundaria,Primaria,23521.7,Técnico/a
+242,España,País Vasco,hombre,50,20135.45,FP,Universidad,29409.44,Técnico/a
+243,España,Navarra,hombre,25,21125.53,Secundaria,Primaria,24271.67,Técnico/a
+244,España,Castilla-La Mancha,mujer,35,17162.34,FP,Secundaria,25544.91,Técnico/a
+245,España,Andalucía,mujer,40,18133.36,Secundaria,Primaria,21709.86,Técnico/a junior
+246,España,Navarra,mujer,42,23704.69,Universidad,Universidad,24991.08,Técnico/a
+247,España,Castilla-La Mancha,mujer,54,12929.75,Primaria,Sin estudios,14227.89,Servicios básicos
+248,España,País Vasco,mujer,40,24994.27,Secundaria,Secundaria,26735.94,Técnico/a
+249,España,País Vasco,hombre,47,23404.01,FP,Universidad,,Técnico/a
+250,España,Murcia,mujer,34,18662.34,Secundaria,Secundaria,20674.85,Técnico/a junior
+251,España,Cantabria,hombre,42,22835.38,Universidad,Universidad,28590.96,Técnico/a
+252,España,Castilla-La Mancha,mujer,30,17166.47,FP,FP,25886.38,Técnico/a
+253,España,Murcia,mujer,43,18114.73,Secundaria,Secundaria,18407.61,Técnico/a junior
+254,España,Castilla y León,mujer,28,15902.59,Primaria,Primaria,21312.11,Técnico/a junior
+255,España,Baleares,hombre,51,17175.87,Secundaria,Secundaria,18745.85,Técnico/a junior
+256,España,Comunidad Valenciana,hombre,37,17548.73,FP,FP,19422.12,Técnico/a junior
+257,España,País Vasco,hombre,48,19326.17,Primaria,Secundaria,21852.62,Técnico/a junior
+258,España,Galicia,mujer,38,17148.5,FP,Universidad,25405.09,Técnico/a
+259,España,Comunidad Valenciana,mujer,27,21834.44,Universidad,Postgrado,23189.18,Técnico/a
+260,España,Aragón,hombre,34,18608.23,Secundaria,Secundaria,21981.24,Técnico/a junior
+261,España,Extremadura,mujer,30,14313.33,Secundaria,Secundaria,24423.7,Técnico/a
+262,España,País Vasco,hombre,25,19575.08,Secundaria,Secundaria,25585.28,Técnico/a
+263,España,Asturias,mujer,47,19939.31,FP,FP,22752.07,Técnico/a
+264,España,Cataluña,mujer,48,18428.77,FP,Universidad,25295.9,Técnico/a
+265,España,Murcia,mujer,51,24534.49,Secundaria,Secundaria,16694.94,Técnico/a junior
+266,España,Madrid,mujer,38,26183.51,Secundaria,Secundaria,20885.91,Técnico/a junior
+267,España,Galicia,hombre,32,25414.54,Secundaria,FP,25790.99,Técnico/a
+268,España,Galicia,mujer,43,24273.49,Universidad,Universidad,36715.72,Especialista
+269,España,Castilla y León,mujer,38,17060.8,Secundaria,FP,12528.89,Servicios básicos
+270,España,Cantabria,mujer,34,15919.99,Primaria,Primaria,19698.36,Técnico/a junior
+271,España,Madrid,mujer,41,19881.19,FP,Universidad,27656.95,Técnico/a
+272,España,Madrid,hombre,33,18984.9,Secundaria,Secundaria,21834.16,Técnico/a junior
+273,España,Murcia,hombre,53,25509.11,Secundaria,Secundaria,20197.15,Técnico/a junior
+274,España,Navarra,hombre,30,32353.7,Postgrado,Postgrado,,Especialista
+275,España,Cataluña,hombre,35,21081.59,Secundaria,FP,27392.67,Técnico/a
+276,España,Cataluña,mujer,49,18960.78,Secundaria,FP,26675.59,Técnico/a
+277,España,Madrid,hombre,31,16701.0,Secundaria,Secundaria,24196.49,Técnico/a
+278,España,Galicia,mujer,41,22024.03,Secundaria,Secundaria,16012.46,Técnico/a junior
+279,España,Galicia,mujer,52,25478.25,FP,FP,29339.94,Técnico/a
+280,España,Madrid,hombre,52,18223.87,Secundaria,FP,28461.14,Técnico/a
+281,España,Navarra,mujer,25,26087.4,FP,FP,28073.78,Técnico/a
+282,España,Castilla y León,hombre,46,19873.69,Secundaria,Secundaria,19469.79,Técnico/a junior
+283,España,Castilla-La Mancha,mujer,29,34315.06,Universidad,Universidad,36204.98,Especialista
+284,España,Aragón,hombre,33,15608.92,Secundaria,FP,20745.32,Técnico/a junior
+285,España,Comunidad Valenciana,hombre,42,17003.42,FP,FP,25399.53,Técnico/a
+286,España,Andalucía,hombre,48,19864.53,Secundaria,Secundaria,19656.13,Técnico/a junior
+287,España,Cataluña,hombre,51,16203.71,Primaria,Primaria,19824.09,Técnico/a junior
+288,España,Comunidad Valenciana,hombre,45,19236.71,FP,FP,17051.17,Técnico/a junior
+289,España,Cantabria,mujer,26,18974.0,Secundaria,Secundaria,21606.85,Técnico/a junior
+290,España,Comunidad Valenciana,hombre,53,22780.62,FP,FP,22297.99,Técnico/a
+291,España,Andalucía,mujer,50,21780.12,Secundaria,FP,26210.81,Técnico/a
+292,España,Andalucía,hombre,35,28396.68,FP,FP,30511.41,Técnico/a
+293,España,Madrid,hombre,51,15759.69,Primaria,Secundaria,19247.98,Técnico/a junior
+294,España,Castilla y León,hombre,52,29683.02,FP,Universidad,32566.58,Especialista
+295,España,Aragón,mujer,30,12289.73,Primaria,Secundaria,18141.11,Técnico/a junior
+296,España,Comunidad Valenciana,mujer,50,15911.02,FP,FP,22747.38,Técnico/a
+297,España,Madrid,hombre,32,23462.81,FP,Secundaria,28029.76,Técnico/a
+298,España,Canarias,mujer,28,17869.97,Secundaria,Secundaria,22348.03,Técnico/a
+299,España,Extremadura,mujer,42,16008.18,Secundaria,Secundaria,17874.06,Técnico/a junior
+300,España,Aragón,mujer,52,18852.2,Secundaria,Primaria,24029.27,Técnico/a
+301,España,Andalucía,hombre,35,15241.85,Primaria,Secundaria,21490.79,Técnico/a junior
+302,España,Comunidad Valenciana,hombre,29,14469.86,Secundaria,Secundaria,23429.44,Técnico/a
+303,España,Comunidad Valenciana,mujer,39,25231.55,FP,FP,27370.17,Técnico/a
+304,España,Extremadura,mujer,52,16739.3,Primaria,Secundaria,20953.0,Técnico/a junior
+305,España,La Rioja,mujer,42,16728.59,Secundaria,Secundaria,19117.7,Técnico/a junior
+306,España,País Vasco,hombre,26,21689.3,FP,FP,25742.77,Técnico/a
+307,España,Cataluña,hombre,46,15751.5,Secundaria,FP,27357.89,Técnico/a
+308,España,Castilla y León,mujer,35,20576.48,FP,FP,24736.61,Técnico/a
+309,España,Madrid,mujer,50,19725.78,Primaria,Primaria,20583.14,Técnico/a junior
+310,España,Canarias,mujer,49,18686.29,Secundaria,Secundaria,16829.64,Técnico/a junior
+311,España,Cataluña,hombre,37,16456.1,Primaria,Secundaria,27176.78,Técnico/a
+312,España,Aragón,hombre,28,16739.44,FP,FP,22270.87,Técnico/a
+313,España,Andalucía,mujer,46,13053.13,Sin estudios,Sin estudios,10899.29,Servicios básicos
+314,España,País Vasco,mujer,31,20333.89,FP,Secundaria,23973.26,Técnico/a
+315,España,Madrid,mujer,53,20314.09,Secundaria,Secundaria,22975.08,Técnico/a
+316,España,Galicia,hombre,35,14954.71,Secundaria,Secundaria,17882.81,Técnico/a junior
+317,España,Castilla-La Mancha,mujer,46,23469.0,Universidad,Universidad,30895.05,Técnico/a
+318,España,Baleares,hombre,48,12743.37,Primaria,Primaria,17178.0,Técnico/a junior
+319,España,Asturias,hombre,28,13392.69,Primaria,Secundaria,16957.46,Técnico/a junior
+320,España,Canarias,mujer,52,14526.18,Primaria,Primaria,21451.52,Técnico/a junior
+321,España,Comunidad Valenciana,mujer,39,21373.93,FP,FP,18123.98,Técnico/a junior
+322,España,La Rioja,mujer,25,18165.6,Secundaria,FP,22415.62,Técnico/a
+323,España,Galicia,hombre,47,29009.24,Secundaria,Secundaria,28305.14,Técnico/a
+324,España,Cantabria,hombre,27,27555.39,Universidad,Universidad,,Especialista
+325,España,País Vasco,hombre,38,24038.38,Universidad,FP,32192.15,Especialista
+326,España,La Rioja,hombre,30,17465.13,FP,FP,29317.93,Técnico/a
+327,España,Comunidad Valenciana,mujer,42,18139.81,Secundaria,FP,28528.8,Técnico/a
+328,España,Extremadura,hombre,49,19598.16,Secundaria,FP,19273.1,Técnico/a junior
+329,España,Castilla-La Mancha,hombre,25,23337.99,FP,Universidad,23165.22,Técnico/a
+330,España,Canarias,mujer,30,16199.7,Secundaria,FP,22748.63,Técnico/a
+331,España,Castilla y León,hombre,30,15218.62,Secundaria,Secundaria,14108.97,Servicios básicos
+332,España,Madrid,hombre,45,16816.73,FP,Universidad,21309.37,Técnico/a junior
+333,España,Andalucía,hombre,40,21301.0,Universidad,Universidad,28736.23,Técnico/a
+334,España,Aragón,hombre,53,18799.17,FP,Secundaria,22444.29,Técnico/a
+335,España,Andalucía,hombre,29,14503.45,Secundaria,Secundaria,24515.54,Técnico/a
+336,España,Andalucía,hombre,41,14777.07,Secundaria,Secundaria,21339.19,Técnico/a junior
+337,España,Murcia,mujer,34,15962.34,FP,FP,28203.48,Técnico/a
+338,España,Galicia,mujer,52,16474.11,Primaria,Secundaria,20657.79,Técnico/a junior
+339,España,Cataluña,hombre,45,31598.93,Postgrado,Postgrado,38603.55,Especialista
+340,España,Aragón,mujer,42,16835.98,Secundaria,FP,24802.99,Técnico/a
+341,España,Cataluña,mujer,31,14367.0,FP,FP,27832.78,Técnico/a
+342,España,Cataluña,mujer,27,14664.69,Primaria,Secundaria,,Técnico/a
+343,España,Baleares,mujer,37,15399.38,Primaria,Primaria,24158.09,Técnico/a
+344,España,Cataluña,hombre,39,15816.6,Primaria,Primaria,18839.03,Técnico/a junior
+345,España,Castilla-La Mancha,hombre,44,18094.35,Secundaria,FP,24470.2,Técnico/a
+346,España,Extremadura,mujer,43,21566.94,Universidad,Universidad,27172.4,Técnico/a
+347,España,Extremadura,mujer,27,16283.43,Secundaria,Secundaria,27654.2,Técnico/a
+348,España,Andalucía,mujer,28,14577.94,Secundaria,Secundaria,21504.49,Técnico/a junior
+349,España,Castilla-La Mancha,hombre,29,14639.57,,Primaria,12820.56,Servicios básicos
+350,España,Extremadura,hombre,25,29170.39,FP,Universidad,38646.24,Especialista
+351,España,Cataluña,mujer,28,20860.63,FP,Universidad,28094.68,Técnico/a
+352,España,Murcia,hombre,36,23205.21,Universidad,Universidad,28774.14,Técnico/a
+353,España,Galicia,hombre,52,21519.36,FP,FP,25924.81,Técnico/a
+354,España,Asturias,hombre,51,13696.18,Sin estudios,Primaria,18271.92,Técnico/a junior
+355,España,Andalucía,hombre,48,16562.82,Secundaria,Secundaria,21146.3,Técnico/a junior
+356,España,Extremadura,mujer,34,19878.58,FP,Secundaria,16979.7,Técnico/a junior
+357,España,Andalucía,hombre,47,16678.08,Secundaria,Secundaria,21209.76,Técnico/a junior
+358,España,Comunidad Valenciana,mujer,49,16557.27,Secundaria,Secundaria,23303.03,Técnico/a
+359,España,País Vasco,hombre,45,19172.13,FP,FP,29626.61,Técnico/a
+360,España,Comunidad Valenciana,hombre,53,23343.12,Secundaria,Secundaria,17948.06,Técnico/a junior
+361,España,Castilla-La Mancha,hombre,50,16849.19,Primaria,Secundaria,17287.35,Técnico/a junior
+362,España,Galicia,hombre,44,24045.45,FP,Universidad,25554.35,Técnico/a
+363,España,Cataluña,mujer,48,16224.47,Secundaria,Secundaria,22806.48,Técnico/a
+364,España,Comunidad Valenciana,hombre,49,16474.22,Primaria,Secundaria,13982.63,Servicios básicos
+365,España,País Vasco,no_binario,37,18806.74,Secundaria,FP,21739.23,Técnico/a junior
+366,España,Castilla-La Mancha,hombre,47,17965.1,,Secundaria,17756.32,Técnico/a junior
+367,España,País Vasco,mujer,38,26177.06,Universidad,Postgrado,32329.43,Especialista
+368,España,Navarra,mujer,47,18811.61,FP,FP,22823.75,Técnico/a
+369,España,Baleares,mujer,29,14453.73,Secundaria,Secundaria,13351.95,Servicios básicos
+370,España,Andalucía,hombre,28,16662.07,Secundaria,Secundaria,21196.64,Técnico/a junior
+371,España,Aragón,hombre,38,12195.94,Secundaria,Secundaria,16098.6,Técnico/a junior
+372,España,Andalucía,mujer,34,20936.62,Universidad,Universidad,25235.55,Técnico/a
+373,España,Aragón,hombre,41,16045.44,Primaria,Primaria,15685.78,Técnico/a junior
+374,España,Galicia,hombre,34,19619.79,FP,FP,23117.02,Técnico/a
+375,España,Andalucía,hombre,50,21506.92,FP,Universidad,29823.02,Técnico/a
+376,España,Castilla y León,hombre,31,25876.92,FP,FP,31091.81,Técnico/a
+377,España,Murcia,hombre,40,19976.49,FP,FP,27056.82,Técnico/a
+378,España,Andalucía,hombre,25,10856.02,Secundaria,Secundaria,24696.12,Técnico/a
+379,España,Madrid,mujer,41,17939.49,FP,Secundaria,24845.04,Técnico/a
+380,España,Cantabria,hombre,45,11919.38,Secundaria,Secundaria,17854.82,Técnico/a junior
+381,España,Aragón,hombre,53,14739.04,Primaria,Sin estudios,14238.07,Servicios básicos
+382,España,Galicia,hombre,33,17167.86,Secundaria,Secundaria,18242.24,Técnico/a junior
+383,España,Extremadura,hombre,30,16073.45,Primaria,Primaria,19196.38,Técnico/a junior
+384,España,Murcia,hombre,43,17184.22,Secundaria,FP,18602.79,Técnico/a junior
+385,España,La Rioja,mujer,37,18747.21,Secundaria,Secundaria,21237.66,Técnico/a junior
+386,España,Madrid,mujer,27,22795.71,FP,Secundaria,24863.01,Técnico/a
+387,España,Cantabria,mujer,31,17923.63,FP,FP,19925.17,Técnico/a junior
+388,España,Baleares,mujer,46,18462.81,FP,Universidad,25434.76,Técnico/a
+389,España,Madrid,hombre,33,21258.72,Secundaria,Secundaria,32990.91,Especialista
+390,España,Madrid,no_binario,46,15861.73,Primaria,Secundaria,16546.31,Técnico/a junior
+391,España,País Vasco,mujer,29,19740.42,Primaria,Sin estudios,19643.64,Técnico/a junior
+392,España,Castilla-La Mancha,mujer,34,18224.61,Secundaria,FP,26904.25,Técnico/a
+393,España,Castilla-La Mancha,hombre,47,17810.18,Secundaria,Primaria,19864.82,Técnico/a junior
+394,España,Madrid,mujer,41,18301.25,Secundaria,Secundaria,21006.46,Técnico/a junior
+395,España,Castilla y León,hombre,36,18390.59,Secundaria,Primaria,14075.67,Servicios básicos
+396,España,País Vasco,hombre,47,27075.99,FP,Universidad,35124.72,Especialista
+397,España,Murcia,hombre,40,22705.6,Secundaria,Secundaria,12979.22,Servicios básicos
+398,España,Cataluña,mujer,27,22967.11,FP,FP,28611.81,Técnico/a
+399,España,Madrid,mujer,54,26871.2,FP,FP,30342.95,Técnico/a
+400,España,Madrid,hombre,49,24246.77,Universidad,Universidad,36590.7,Especialista
+401,España,Aragón,hombre,46,21966.75,,Secundaria,17883.35,Técnico/a junior
+402,España,Navarra,mujer,33,16089.87,FP,Secundaria,18108.29,Técnico/a junior
+403,España,Cataluña,hombre,53,19255.78,Secundaria,Secundaria,24674.07,Técnico/a
+404,España,Madrid,mujer,39,17457.98,Secundaria,Secundaria,22958.31,Técnico/a
+405,España,Castilla y León,hombre,29,20493.75,Universidad,Universidad,22465.14,Técnico/a
+406,España,Navarra,mujer,47,24432.41,Universidad,FP,23487.68,Técnico/a
+407,España,Castilla-La Mancha,hombre,37,15413.38,FP,Universidad,29137.8,Técnico/a
+408,España,Andalucía,mujer,38,19536.87,Secundaria,FP,24194.22,Técnico/a
+409,España,Navarra,mujer,44,20860.13,Universidad,Universidad,21551.03,Técnico/a junior
+410,España,Aragón,mujer,39,16086.99,FP,FP,24639.16,Técnico/a
+411,España,Castilla y León,mujer,40,21654.44,Universidad,FP,18756.41,Técnico/a junior
+412,España,País Vasco,hombre,47,18837.69,Primaria,Secundaria,21859.62,Técnico/a junior
+413,España,País Vasco,no_binario,37,25110.22,FP,FP,31198.48,Técnico/a
+414,España,Comunidad Valenciana,mujer,41,16403.11,Secundaria,Secundaria,23629.37,Técnico/a
+415,España,Extremadura,mujer,47,19073.5,FP,Secundaria,12400.34,Servicios básicos
+416,España,Cataluña,hombre,32,16036.52,Secundaria,Secundaria,24012.97,Técnico/a
+417,España,Cantabria,hombre,45,18502.25,FP,FP,25781.17,Técnico/a
+418,España,Castilla y León,hombre,26,18711.92,Secundaria,Secundaria,18470.81,Técnico/a junior
+419,España,Galicia,mujer,29,19931.92,Primaria,Primaria,19190.61,Técnico/a junior
+420,España,Madrid,mujer,30,18725.29,FP,Universidad,18601.36,Técnico/a junior
+421,España,Madrid,hombre,36,23437.25,FP,Secundaria,15634.44,Técnico/a junior
+422,España,Madrid,mujer,42,15534.07,FP,FP,27701.34,Técnico/a
+423,España,Aragón,hombre,54,15389.11,FP,Universidad,22337.99,Técnico/a
+424,España,Cataluña,mujer,46,23189.9,FP,FP,26931.29,Técnico/a
+425,España,Andalucía,hombre,46,21781.26,FP,FP,25239.12,Técnico/a
+426,España,Comunidad Valenciana,mujer,25,19527.39,FP,FP,22001.04,Técnico/a
+427,España,Cataluña,hombre,54,19200.4,Primaria,Secundaria,21511.58,Técnico/a junior
+428,España,Murcia,mujer,41,17384.86,Secundaria,FP,23582.68,Técnico/a
+429,España,Castilla y León,hombre,54,15128.64,FP,FP,15830.46,Técnico/a junior
+430,España,Aragón,mujer,35,11096.29,Secundaria,Primaria,19353.71,Técnico/a junior
+431,España,Asturias,hombre,34,17735.48,FP,FP,21572.81,Técnico/a junior
+432,España,Madrid,hombre,43,30448.61,Universidad,Universidad,33326.4,Especialista
+433,España,Extremadura,hombre,38,25194.8,Universidad,Postgrado,29848.87,Técnico/a
+434,España,Aragón,hombre,50,12641.72,Secundaria,Secundaria,17838.06,Técnico/a junior
+435,España,Aragón,hombre,34,13159.83,Primaria,Secundaria,16849.67,Técnico/a junior
+436,España,Galicia,hombre,39,24691.1,Secundaria,FP,20463.37,Técnico/a junior
+437,España,Andalucía,mujer,52,15578.55,FP,FP,19185.17,Técnico/a junior
+438,España,Madrid,hombre,43,16636.0,Primaria,Primaria,16809.89,Técnico/a junior
+439,España,Galicia,hombre,28,17160.18,Secundaria,Secundaria,24138.58,Técnico/a
+440,España,Aragón,mujer,26,10056.0,Sin estudios,Sin estudios,14503.0,Servicios básicos
+441,España,Aragón,mujer,33,16320.38,Primaria,Primaria,22902.44,Técnico/a
+442,España,País Vasco,mujer,34,28190.12,Universidad,Postgrado,37604.43,Especialista
+443,España,Castilla-La Mancha,hombre,52,18596.96,Secundaria,FP,21793.91,Técnico/a junior
+444,España,Castilla-La Mancha,hombre,35,19393.01,FP,FP,24567.01,Técnico/a
+445,España,Madrid,hombre,38,34593.41,Universidad,Postgrado,46883.33,Responsable/Consultor/a
+446,España,País Vasco,hombre,31,17745.9,Primaria,Primaria,22669.01,Técnico/a
+447,España,País Vasco,mujer,47,28158.5,FP,FP,27840.38,Técnico/a
+448,España,Madrid,mujer,39,19729.46,Secundaria,Secundaria,20374.77,Técnico/a junior
+449,España,Castilla-La Mancha,mujer,46,15764.5,Secundaria,Secundaria,17850.05,Técnico/a junior
+450,España,Aragón,mujer,43,17723.67,FP,Universidad,30752.01,Técnico/a
+451,España,Madrid,mujer,46,18351.33,FP,Universidad,25539.62,Técnico/a
+452,España,Comunidad Valenciana,mujer,39,17157.8,Secundaria,Secundaria,17876.77,Técnico/a junior
+453,España,Castilla-La Mancha,hombre,54,22754.11,Universidad,Universidad,31020.87,Técnico/a
+454,España,Navarra,hombre,52,26523.52,Secundaria,Secundaria,26302.82,Técnico/a
+455,España,Aragón,no_binario,48,16417.6,FP,FP,23658.43,Técnico/a
+456,España,Cataluña,hombre,32,30381.25,Universidad,FP,32485.36,Especialista
+457,España,Andalucía,hombre,35,14390.98,Secundaria,Secundaria,14747.97,Servicios básicos
+458,España,Cataluña,mujer,53,34963.6,,Universidad,37341.2,Especialista
+459,España,Andalucía,hombre,33,23856.01,FP,Secundaria,26677.92,Técnico/a
+460,España,Aragón,hombre,39,23831.34,FP,FP,28158.73,Técnico/a
+461,España,Aragón,mujer,25,19622.58,Secundaria,Secundaria,16157.71,Técnico/a junior
+462,España,Galicia,mujer,54,22198.03,Universidad,Universidad,31189.17,Técnico/a
+463,España,Madrid,hombre,25,21514.4,FP,Universidad,35663.29,Especialista
+464,España,Comunidad Valenciana,mujer,43,25909.03,Universidad,Universidad,30472.01,Técnico/a
+465,España,País Vasco,hombre,27,27384.36,FP,Secundaria,28733.7,Técnico/a
+466,España,Castilla-La Mancha,hombre,34,20191.71,FP,Secundaria,24626.47,Técnico/a
+467,España,Cantabria,mujer,32,16132.96,FP,FP,19136.0,Técnico/a junior
+468,España,Murcia,mujer,39,16515.67,Secundaria,Secundaria,27585.64,Técnico/a
+469,España,Canarias,mujer,34,20684.41,FP,FP,28145.72,Técnico/a
+470,España,País Vasco,mujer,25,21966.18,FP,Universidad,33208.12,Especialista
+471,España,Andalucía,mujer,53,19727.29,Primaria,Sin estudios,17624.91,Técnico/a junior
+472,España,País Vasco,hombre,42,26358.59,FP,Universidad,35939.37,Especialista
+473,España,Andalucía,mujer,26,10305.2,Primaria,Sin estudios,9000.0,Servicios básicos
+474,España,Navarra,hombre,43,19365.89,Secundaria,Primaria,25930.49,Técnico/a
+475,España,Comunidad Valenciana,mujer,37,17701.91,Primaria,Secundaria,23916.98,Técnico/a
+476,España,País Vasco,hombre,46,17636.59,Secundaria,FP,30132.35,Técnico/a
+477,España,Andalucía,mujer,25,17898.22,Secundaria,FP,22568.35,Técnico/a
+478,España,Comunidad Valenciana,mujer,26,22359.04,Secundaria,Secundaria,20800.56,Técnico/a junior
+479,España,País Vasco,hombre,53,22420.84,FP,Secundaria,22380.03,Técnico/a
+480,España,Comunidad Valenciana,hombre,40,14986.96,Secundaria,Primaria,19717.23,Técnico/a junior
+481,España,Extremadura,mujer,39,21966.13,FP,FP,22717.01,Técnico/a
+482,España,Galicia,hombre,37,18230.76,Secundaria,Primaria,17527.71,Técnico/a junior
+483,España,Cataluña,mujer,40,16857.03,Primaria,Primaria,21654.75,Técnico/a junior
+484,España,Extremadura,mujer,41,24826.64,FP,Secundaria,20864.34,Técnico/a junior
+485,España,Comunidad Valenciana,mujer,45,28694.1,FP,Universidad,35541.62,Especialista
+486,España,Navarra,mujer,53,24028.49,FP,Universidad,29138.32,Técnico/a
+487,España,Andalucía,hombre,53,14414.99,FP,Secundaria,13208.33,Servicios básicos
+488,España,Cantabria,hombre,31,16858.97,FP,FP,19591.91,Técnico/a junior
+489,España,País Vasco,mujer,48,25355.89,FP,FP,33944.34,Especialista
+490,España,Navarra,hombre,50,16679.43,FP,Secundaria,16226.23,Técnico/a junior
+491,España,Cataluña,hombre,41,39146.01,Universidad,Postgrado,51225.18,Responsable/Consultor/a
+492,España,Extremadura,mujer,31,19692.05,Primaria,Primaria,19201.14,Técnico/a junior
+493,España,Cantabria,hombre,37,17650.43,Secundaria,Secundaria,19341.74,Técnico/a junior
+494,España,Baleares,mujer,29,11818.55,Secundaria,Secundaria,28190.63,Técnico/a
+495,España,Cataluña,hombre,50,18629.76,Secundaria,FP,21074.17,Técnico/a junior
+496,España,Castilla y León,hombre,41,15195.11,Secundaria,Secundaria,16247.33,Técnico/a junior
+497,España,Comunidad Valenciana,hombre,27,24732.81,Secundaria,FP,25823.33,Técnico/a
+498,España,Andalucía,mujer,31,17742.06,FP,Universidad,34034.55,Especialista
+499,España,País Vasco,mujer,50,16666.58,Secundaria,Secundaria,21766.1,Técnico/a junior
+500,España,País Vasco,mujer,41,23654.79,FP,FP,29365.34,Técnico/a
+501,España,Galicia,mujer,31,23943.58,Universidad,Universidad,27976.08,Técnico/a
+502,España,Comunidad Valenciana,mujer,45,22091.71,,Universidad,29340.02,Técnico/a
+503,España,Cantabria,hombre,25,19678.07,Secundaria,Secundaria,19896.77,Técnico/a junior
+504,España,Madrid,mujer,41,27518.82,FP,Universidad,37389.77,Especialista
+505,España,Galicia,mujer,54,18446.0,Primaria,Primaria,20980.29,Técnico/a junior
+506,España,Asturias,hombre,41,16472.03,Secundaria,Primaria,16651.8,Técnico/a junior
+507,España,Navarra,mujer,35,17944.01,Secundaria,Secundaria,16135.62,Técnico/a junior
+508,España,Madrid,hombre,49,37477.58,Universidad,Universidad,41708.23,Especialista
+509,España,País Vasco,mujer,51,18026.01,Primaria,Secundaria,27432.54,Técnico/a
+510,España,La Rioja,mujer,53,23138.87,FP,FP,22208.68,Técnico/a
+511,España,Extremadura,mujer,27,17776.84,Secundaria,Primaria,19168.33,Técnico/a junior
+512,España,Castilla-La Mancha,mujer,39,18324.78,Primaria,Sin estudios,12989.14,Servicios básicos
+513,España,País Vasco,hombre,53,15813.26,Secundaria,Secundaria,17770.56,Técnico/a junior
+514,España,Murcia,mujer,45,24130.08,Universidad,FP,30152.84,Técnico/a
+515,España,Andalucía,hombre,35,31394.96,Universidad,Postgrado,40305.58,Especialista
+516,España,Andalucía,mujer,50,19071.87,Secundaria,Secundaria,21803.72,Técnico/a junior
+517,España,Castilla-La Mancha,mujer,52,12182.67,Sin estudios,Sin estudios,9000.0,Servicios básicos
+518,España,Madrid,hombre,40,22318.53,Secundaria,FP,25716.04,Técnico/a
+519,España,País Vasco,mujer,49,17487.54,Secundaria,Secundaria,24377.57,Técnico/a
+520,España,Asturias,hombre,46,13033.67,Sin estudios,Sin estudios,10113.65,Servicios básicos
+521,España,Comunidad Valenciana,hombre,52,22054.05,Universidad,Universidad,26824.53,Técnico/a
+522,España,Castilla-La Mancha,hombre,33,20267.71,FP,FP,26338.21,Técnico/a
+523,España,País Vasco,hombre,48,25226.07,FP,FP,24003.43,Técnico/a
+524,España,Murcia,mujer,48,22759.05,,Secundaria,16364.07,Técnico/a junior
+525,España,Murcia,mujer,25,20938.13,FP,Secundaria,16193.76,Técnico/a junior
+526,España,Cataluña,mujer,53,22149.43,Secundaria,Secundaria,25774.01,Técnico/a
+527,España,Castilla-La Mancha,hombre,49,13967.59,Sin estudios,Sin estudios,13593.11,Servicios básicos
+528,España,Cantabria,no_binario,46,22808.4,FP,FP,28008.6,Técnico/a
+529,España,Andalucía,mujer,40,11951.69,Secundaria,Secundaria,17801.82,Técnico/a junior
+530,España,Murcia,hombre,33,22497.57,Secundaria,Secundaria,28705.78,Técnico/a
+531,España,Madrid,mujer,43,27964.21,FP,FP,26506.85,Técnico/a
+532,España,País Vasco,hombre,36,18131.72,FP,FP,26448.99,Técnico/a
+533,España,País Vasco,mujer,43,25450.11,Secundaria,Secundaria,23483.6,Técnico/a
+534,España,Comunidad Valenciana,hombre,46,22227.72,,FP,26743.52,Técnico/a
+535,España,Madrid,hombre,33,21116.25,Universidad,Postgrado,35339.53,Especialista
+536,España,País Vasco,mujer,31,16625.74,FP,FP,20961.77,Técnico/a junior
+537,España,Murcia,mujer,38,22605.74,Universidad,Postgrado,31600.21,Técnico/a
+538,España,Canarias,mujer,53,18137.98,Secundaria,Secundaria,20417.93,Técnico/a junior
+539,España,Cataluña,mujer,43,23084.01,Secundaria,FP,25985.68,Técnico/a
+540,España,Aragón,mujer,43,12933.23,Sin estudios,Sin estudios,17692.05,Técnico/a junior
+541,España,País Vasco,hombre,26,28578.7,Secundaria,Secundaria,24234.84,Técnico/a
+542,España,Extremadura,hombre,33,19967.18,FP,FP,30821.99,Técnico/a
+543,España,Canarias,hombre,37,17032.82,Primaria,Secundaria,23002.69,Técnico/a
+544,España,Galicia,mujer,39,27235.78,Secundaria,Secundaria,25476.69,Técnico/a
+545,España,Extremadura,hombre,27,24603.1,Universidad,Universidad,39489.99,Especialista
+546,España,Castilla y León,hombre,35,23070.92,FP,Universidad,27566.3,Técnico/a
+547,España,Aragón,mujer,45,13550.17,Primaria,Primaria,18427.63,Técnico/a junior
+548,España,Galicia,hombre,38,22406.36,FP,Universidad,29045.44,Técnico/a
+549,España,Comunidad Valenciana,hombre,54,14627.99,Primaria,Secundaria,21373.73,Técnico/a junior
+550,España,Madrid,mujer,49,18231.08,FP,Universidad,34200.84,Especialista
+551,España,Comunidad Valenciana,mujer,32,17044.09,FP,FP,23951.54,Técnico/a
+552,España,Murcia,mujer,42,24413.49,FP,FP,29390.68,Técnico/a
+553,España,Comunidad Valenciana,mujer,43,25104.29,Universidad,Universidad,27893.71,Técnico/a
+554,España,Comunidad Valenciana,hombre,40,19170.47,FP,Universidad,25680.67,Técnico/a
+555,España,Murcia,hombre,26,19919.96,Secundaria,FP,29213.67,Técnico/a
+556,España,Castilla-La Mancha,hombre,32,22520.83,Universidad,Universidad,30420.99,Técnico/a
+557,España,Asturias,mujer,46,17258.88,Secundaria,Secundaria,20635.63,Técnico/a junior
+558,España,Andalucía,mujer,30,16512.48,FP,FP,19125.94,Técnico/a junior
+559,España,Madrid,hombre,36,18424.11,Secundaria,FP,28835.93,Técnico/a
+560,España,Extremadura,hombre,39,20124.17,FP,Secundaria,18320.75,Técnico/a junior
+561,España,Galicia,mujer,49,16557.25,Secundaria,Secundaria,15684.18,Técnico/a junior
+562,España,Baleares,hombre,32,15160.22,Secundaria,Secundaria,21482.99,Técnico/a junior
+563,España,Asturias,hombre,28,25040.02,Universidad,Postgrado,25329.89,Técnico/a
+564,España,Andalucía,mujer,39,15436.62,Secundaria,FP,23358.82,Técnico/a
+565,España,Castilla y León,mujer,52,21364.11,FP,FP,25526.82,Técnico/a
+566,España,Comunidad Valenciana,hombre,44,17213.99,FP,FP,20881.04,Técnico/a junior
+567,España,Castilla-La Mancha,mujer,49,26409.85,FP,FP,25833.15,Técnico/a
+568,España,Cataluña,mujer,41,18100.19,Secundaria,FP,24852.37,Técnico/a
+569,España,Navarra,mujer,37,29413.28,FP,Universidad,29540.1,Técnico/a
+570,España,Castilla y León,mujer,42,15424.83,FP,FP,21860.12,Técnico/a junior
+571,España,Cataluña,hombre,26,17240.81,Secundaria,FP,23912.01,Técnico/a
+572,España,Madrid,hombre,37,19520.21,Secundaria,FP,26465.15,Técnico/a
+573,España,Castilla-La Mancha,mujer,37,16989.89,Secundaria,Secundaria,19100.4,Técnico/a junior
+574,España,Extremadura,hombre,46,23833.72,,Universidad,27854.37,Técnico/a
+575,España,Murcia,hombre,39,25149.38,FP,Universidad,30820.77,Técnico/a
+576,España,País Vasco,hombre,44,22670.36,FP,FP,30583.61,Técnico/a
+577,España,Asturias,mujer,53,19905.91,Secundaria,Secundaria,19120.97,Técnico/a junior
+578,España,Navarra,mujer,51,42537.76,Universidad,Universidad,41245.91,Especialista
+579,España,Cataluña,no_binario,34,20730.72,FP,Universidad,32395.01,Especialista
+580,España,Canarias,hombre,53,21462.89,FP,FP,19763.77,Técnico/a junior
+581,España,Cataluña,mujer,27,16239.55,Primaria,Primaria,22880.17,Técnico/a
+582,España,País Vasco,mujer,43,19676.53,Secundaria,Secundaria,30554.55,Técnico/a
+583,España,Cataluña,mujer,27,15008.32,Primaria,Sin estudios,17545.23,Técnico/a junior
+584,España,Castilla y León,hombre,46,18747.0,Secundaria,Secundaria,19836.97,Técnico/a junior
+585,España,Extremadura,hombre,38,19767.2,Primaria,Primaria,18060.19,Técnico/a junior
+586,España,Canarias,hombre,32,13006.8,Primaria,Primaria,18239.87,Técnico/a junior
+587,España,Andalucía,mujer,51,16927.9,Secundaria,Secundaria,21405.28,Técnico/a junior
+588,España,Aragón,hombre,47,18004.9,FP,FP,16947.16,Técnico/a junior
+589,España,Aragón,hombre,54,21665.19,,FP,21327.83,Técnico/a junior
+590,España,Asturias,mujer,28,15456.19,Primaria,Primaria,18835.35,Técnico/a junior
+591,España,Asturias,hombre,51,20273.84,Secundaria,FP,23150.44,Técnico/a
+592,España,Extremadura,hombre,52,22301.79,FP,Universidad,24124.42,Técnico/a
+593,España,Baleares,mujer,44,19758.72,Secundaria,FP,31457.11,Técnico/a
+594,España,Castilla y León,hombre,35,15227.46,Secundaria,FP,18315.64,Técnico/a junior
+595,España,Navarra,mujer,50,20863.2,FP,Secundaria,21513.66,Técnico/a junior
+596,España,Cataluña,hombre,35,25066.96,FP,FP,28602.28,Técnico/a
+597,España,Galicia,hombre,51,24202.91,Secundaria,Primaria,16826.77,Técnico/a junior
+598,España,Baleares,hombre,54,12768.4,Primaria,Primaria,18535.09,Técnico/a junior
+599,España,Baleares,hombre,35,20030.65,Universidad,Universidad,31497.75,Técnico/a
+600,España,Andalucía,mujer,26,12798.81,Secundaria,FP,18253.73,Técnico/a junior
+601,España,Baleares,hombre,54,12461.1,Primaria,Primaria,16571.68,Técnico/a junior
+602,España,Cantabria,hombre,41,16493.24,FP,FP,23854.3,Técnico/a
+603,España,Baleares,mujer,33,18699.23,Secundaria,Secundaria,15951.43,Técnico/a junior
+604,España,Aragón,hombre,52,18183.21,Primaria,Secundaria,17224.93,Técnico/a junior
+605,España,Aragón,hombre,52,11972.5,Sin estudios,Primaria,16395.88,Técnico/a junior
+606,España,Cataluña,mujer,26,15827.04,Secundaria,Secundaria,19573.24,Técnico/a junior
+607,España,Baleares,hombre,53,27057.07,FP,Secundaria,25183.16,Técnico/a
+608,España,Castilla y León,hombre,48,14325.29,Primaria,Primaria,19757.67,Técnico/a junior
+609,España,Cataluña,mujer,39,16584.22,FP,FP,22197.63,Técnico/a
+610,España,Galicia,no_binario,40,13427.15,Sin estudios,Primaria,23165.12,Técnico/a
+611,España,Andalucía,mujer,49,28060.03,FP,FP,21441.46,Técnico/a junior
+612,España,Madrid,mujer,28,17135.93,Secundaria,Primaria,12126.88,Servicios básicos
+613,España,Extremadura,mujer,32,16623.12,Secundaria,Secundaria,22556.68,Técnico/a
+614,España,Aragón,hombre,33,11757.67,Sin estudios,Primaria,12118.03,Servicios básicos
+615,España,Murcia,hombre,50,20328.25,FP,FP,20300.68,Técnico/a junior
+616,España,Navarra,mujer,50,19835.9,Secundaria,FP,26883.86,Técnico/a
+617,España,Andalucía,mujer,29,23949.74,Universidad,Universidad,27414.61,Técnico/a
+618,España,Cantabria,hombre,40,24829.1,Universidad,Universidad,32847.83,Especialista
+619,España,Madrid,mujer,37,33828.37,FP,Secundaria,28353.06,Técnico/a
+620,España,Madrid,hombre,54,23044.2,FP,FP,29329.65,Técnico/a
+621,España,Baleares,hombre,31,13543.84,Sin estudios,Primaria,16449.51,Técnico/a junior
+622,España,Baleares,hombre,50,16856.5,Secundaria,Secundaria,18716.33,Técnico/a junior
+623,España,Castilla-La Mancha,hombre,44,15521.57,Secundaria,Secundaria,25041.81,Técnico/a
+624,España,Cataluña,mujer,41,14602.6,Primaria,Secundaria,24707.33,Técnico/a
+625,España,Extremadura,no_binario,27,30300.87,FP,Universidad,30270.06,Técnico/a
+626,España,Castilla y León,hombre,29,21801.77,FP,Secundaria,21186.41,Técnico/a junior
+627,España,Cataluña,hombre,43,21628.96,FP,FP,32428.71,Especialista
+628,España,Madrid,mujer,36,15956.53,FP,Universidad,24038.31,Técnico/a
+629,España,Andalucía,hombre,53,17154.87,Secundaria,FP,18816.68,Técnico/a junior
+630,España,Canarias,mujer,51,16025.49,FP,Universidad,26235.89,Técnico/a
+631,España,La Rioja,mujer,31,20744.88,,Universidad,35255.78,Especialista
+632,España,Navarra,mujer,52,16061.52,Secundaria,Secundaria,19416.09,Técnico/a junior
+633,España,Cataluña,hombre,33,21214.83,Universidad,Postgrado,38666.14,Especialista
+634,España,Comunidad Valenciana,hombre,52,13660.87,Primaria,Primaria,12771.61,Servicios básicos
+635,España,Aragón,hombre,30,15711.6,Secundaria,Secundaria,20333.9,Técnico/a junior
+636,España,Cataluña,hombre,53,20097.78,Universidad,Universidad,28910.03,Técnico/a
+637,España,Comunidad Valenciana,mujer,50,22818.33,Universidad,Postgrado,38822.15,Especialista
+638,España,Canarias,hombre,41,19110.31,Secundaria,Secundaria,26195.06,Técnico/a
+639,España,Canarias,mujer,40,20171.5,FP,FP,31584.39,Técnico/a
+640,España,Castilla-La Mancha,hombre,47,20009.2,Secundaria,Primaria,16469.51,Técnico/a junior
+641,España,Andalucía,hombre,27,13145.7,Primaria,Secundaria,18039.81,Técnico/a junior
+642,España,Castilla y León,hombre,45,13476.02,Secundaria,FP,21545.0,Técnico/a junior
+643,España,Baleares,hombre,50,23198.34,Secundaria,FP,25850.16,Técnico/a
+644,España,Castilla y León,mujer,28,26966.07,FP,Universidad,31351.15,Técnico/a
+645,España,Aragón,mujer,34,15546.02,FP,FP,24456.62,Técnico/a
+646,España,Navarra,hombre,29,18907.31,Primaria,Sin estudios,15505.77,Técnico/a junior
+647,España,Comunidad Valenciana,mujer,45,13932.86,Sin estudios,Sin estudios,13067.57,Servicios básicos
+648,España,Galicia,mujer,46,18018.85,Secundaria,Secundaria,17414.69,Técnico/a junior
+649,España,Madrid,hombre,54,17922.06,FP,Universidad,24062.12,Técnico/a
+650,España,Cataluña,hombre,34,14915.22,Secundaria,Secundaria,23946.25,Técnico/a
+651,España,Aragón,mujer,36,23077.44,Secundaria,FP,22601.19,Técnico/a
+652,España,Comunidad Valenciana,mujer,34,22070.74,Secundaria,Secundaria,19092.96,Técnico/a junior
+653,España,Comunidad Valenciana,hombre,53,22186.2,FP,FP,26473.59,Técnico/a
+654,España,Madrid,hombre,37,19977.97,,Secundaria,23471.74,Técnico/a
+655,España,Cataluña,mujer,35,15646.6,Secundaria,Secundaria,19486.53,Técnico/a junior
+656,España,Aragón,mujer,46,16913.71,Secundaria,FP,24801.71,Técnico/a
+657,España,Cantabria,mujer,40,17941.75,FP,Secundaria,18094.73,Técnico/a junior
+658,España,Castilla y León,mujer,32,13424.76,Primaria,Primaria,9000.0,Servicios básicos
+659,España,Galicia,mujer,32,22904.5,Secundaria,Secundaria,26973.38,Técnico/a
+660,España,Comunidad Valenciana,hombre,51,19008.92,FP,FP,20121.81,Técnico/a junior
+661,España,Castilla y León,hombre,49,18299.43,FP,FP,20146.57,Técnico/a junior
+662,España,País Vasco,hombre,32,19371.89,Secundaria,FP,23486.96,Técnico/a
+663,España,Extremadura,mujer,37,14237.47,FP,Universidad,23769.39,Técnico/a
+664,España,Canarias,hombre,51,16171.93,FP,Universidad,23715.18,Técnico/a
+665,España,Aragón,mujer,26,19452.91,FP,Universidad,30023.13,Técnico/a
+666,España,Asturias,hombre,54,26175.41,,FP,,Especialista
+667,España,Canarias,hombre,54,27285.33,FP,FP,24814.61,Técnico/a
+668,España,Asturias,mujer,36,15243.43,Primaria,Primaria,13690.56,Servicios básicos
+669,España,Baleares,hombre,34,16667.81,FP,Secundaria,20013.92,Técnico/a junior
+670,España,Cantabria,mujer,36,23219.13,FP,Universidad,30270.92,Técnico/a
+671,España,Baleares,hombre,35,14341.46,FP,Universidad,26047.9,Técnico/a
+672,España,Navarra,mujer,39,17394.31,Secundaria,Secundaria,18076.0,Técnico/a junior
+673,España,Aragón,mujer,40,17015.21,Secundaria,Primaria,13151.62,Servicios básicos
+674,España,Comunidad Valenciana,hombre,41,20972.94,FP,FP,16279.25,Técnico/a junior
+675,España,Castilla-La Mancha,mujer,50,18506.44,Secundaria,Secundaria,16811.39,Técnico/a junior
+676,España,País Vasco,hombre,26,19993.75,FP,FP,30764.33,Técnico/a
+677,España,Aragón,mujer,42,18094.32,FP,FP,24085.51,Técnico/a
+678,España,Castilla-La Mancha,hombre,36,17188.87,Secundaria,Secundaria,19064.62,Técnico/a junior
+679,España,País Vasco,hombre,43,21238.91,Secundaria,Secundaria,26698.66,Técnico/a
+680,España,Murcia,hombre,50,20273.07,,FP,19150.04,Técnico/a junior
+681,España,Madrid,mujer,47,21591.1,Secundaria,FP,27439.17,Técnico/a
+682,España,Canarias,mujer,42,15129.87,FP,FP,14813.21,Servicios básicos
+683,España,Baleares,mujer,54,17709.78,FP,FP,26260.68,Técnico/a
+684,España,Galicia,mujer,41,14444.94,Secundaria,Primaria,17558.5,Técnico/a junior
+685,España,País Vasco,hombre,54,18624.28,FP,Universidad,30209.67,Técnico/a
+686,España,Comunidad Valenciana,hombre,30,21750.69,FP,FP,28489.01,Técnico/a
+687,España,Comunidad Valenciana,hombre,49,17991.01,Primaria,Sin estudios,19797.54,Técnico/a junior
+688,España,Cantabria,hombre,39,16456.26,Secundaria,FP,17502.76,Técnico/a junior
+689,España,Madrid,hombre,27,25276.75,Universidad,Postgrado,42099.77,Especialista
+690,España,Baleares,hombre,30,23951.77,FP,FP,27840.01,Técnico/a
+691,España,Castilla y León,mujer,27,21700.52,FP,Secundaria,14869.71,Servicios básicos
+692,España,Castilla-La Mancha,hombre,54,18032.64,Secundaria,Secundaria,19734.04,Técnico/a junior
+693,España,Cataluña,hombre,53,17319.88,Secundaria,Primaria,22217.25,Técnico/a
+694,España,Canarias,hombre,25,15240.04,FP,Secundaria,15309.54,Técnico/a junior
+695,España,Aragón,mujer,54,17356.76,Secundaria,Secundaria,24475.55,Técnico/a
+696,España,Extremadura,mujer,37,16342.83,Secundaria,FP,18445.18,Técnico/a junior
+697,España,Cantabria,mujer,52,21930.61,FP,FP,22809.21,Técnico/a
+698,España,Comunidad Valenciana,hombre,45,21268.6,Universidad,FP,21832.79,Técnico/a junior
+699,España,Asturias,hombre,50,15402.87,Secundaria,FP,15221.63,Técnico/a junior
+700,España,Cataluña,mujer,38,17459.79,Primaria,Sin estudios,15427.81,Técnico/a junior
+701,España,Comunidad Valenciana,hombre,37,17787.46,FP,Universidad,23114.07,Técnico/a
+702,España,Andalucía,mujer,51,15023.41,Primaria,Primaria,16429.11,Técnico/a junior
+703,España,Castilla y León,mujer,28,18349.28,Primaria,Primaria,9000.0,Servicios básicos
+704,España,Asturias,mujer,31,17317.23,FP,Secundaria,22300.69,Técnico/a
+705,España,Andalucía,hombre,46,24526.93,FP,FP,28274.93,Técnico/a
+706,España,País Vasco,hombre,34,21840.9,FP,FP,31516.67,Técnico/a
+707,España,Castilla y León,mujer,31,16441.78,Primaria,Secundaria,14178.01,Servicios básicos
+708,España,Madrid,hombre,45,27781.26,Universidad,FP,29709.86,Técnico/a
+709,España,Canarias,mujer,39,17027.0,Primaria,Primaria,,Técnico/a junior
+710,España,Galicia,hombre,39,14024.48,Secundaria,Secundaria,21907.25,Técnico/a junior
+711,España,Madrid,hombre,28,29746.45,Universidad,Universidad,41569.49,Especialista
+712,España,Comunidad Valenciana,hombre,47,16181.79,Secundaria,Secundaria,19641.31,Técnico/a junior
+713,España,Cataluña,mujer,47,20430.27,FP,FP,26389.37,Técnico/a
+714,España,Castilla-La Mancha,hombre,30,17735.5,Primaria,Secundaria,14528.15,Servicios básicos
+715,España,Castilla y León,hombre,48,17919.63,Secundaria,FP,26198.56,Técnico/a
+716,España,País Vasco,mujer,44,18982.39,Secundaria,Primaria,19095.31,Técnico/a junior
+717,España,Madrid,hombre,50,17337.76,FP,FP,24958.41,Técnico/a
+718,España,País Vasco,mujer,29,26097.07,Universidad,Universidad,33924.04,Especialista
+719,España,Aragón,hombre,44,16301.74,Primaria,Primaria,9020.92,Servicios básicos
+720,España,La Rioja,mujer,36,19230.65,FP,FP,20292.15,Técnico/a junior
+721,España,País Vasco,hombre,25,20695.21,FP,FP,28323.42,Técnico/a
+722,España,Baleares,hombre,52,22078.39,FP,FP,27345.56,Técnico/a
+723,España,Andalucía,mujer,32,13058.67,Sin estudios,Primaria,17705.14,Técnico/a junior
+724,España,Madrid,mujer,25,27855.77,FP,FP,33520.29,Especialista
+725,España,Comunidad Valenciana,mujer,29,20007.83,Secundaria,Secundaria,18122.18,Técnico/a junior
+726,España,Murcia,mujer,46,19494.06,Secundaria,FP,21461.98,Técnico/a junior
+727,España,Asturias,mujer,30,14697.88,Secundaria,Secundaria,18119.89,Técnico/a junior
+728,España,Madrid,hombre,53,18239.68,FP,FP,28055.98,Técnico/a
+729,España,Baleares,mujer,45,14625.48,Primaria,Sin estudios,16870.21,Técnico/a junior
+730,España,Asturias,mujer,27,19914.09,FP,Secundaria,14727.5,Servicios básicos
+731,España,Asturias,hombre,39,13228.24,Secundaria,Secundaria,17259.07,Técnico/a junior
+732,España,Madrid,mujer,29,19844.84,FP,FP,28821.26,Técnico/a
+733,España,Galicia,hombre,52,20439.82,FP,FP,28491.24,Técnico/a
+734,España,Comunidad Valenciana,hombre,48,16116.48,Secundaria,FP,22544.72,Técnico/a
+735,España,Castilla y León,hombre,38,14144.73,Secundaria,Primaria,11327.63,Servicios básicos
+736,España,Murcia,hombre,42,15707.44,Primaria,Secundaria,17646.05,Técnico/a junior
+737,España,Castilla-La Mancha,hombre,40,18912.37,FP,Secundaria,22173.27,Técnico/a
+738,España,Madrid,mujer,30,15798.7,Primaria,Sin estudios,21223.91,Técnico/a junior
+739,España,Cataluña,mujer,49,29393.49,FP,FP,33419.59,Especialista
+740,España,Castilla-La Mancha,mujer,48,20047.95,Secundaria,FP,22663.54,Técnico/a
+741,España,Cataluña,hombre,38,13870.43,Secundaria,FP,25887.18,Técnico/a
+742,España,Cantabria,mujer,51,16080.56,Primaria,Sin estudios,14108.84,Servicios básicos
+743,España,Madrid,hombre,48,18883.67,Secundaria,FP,26358.53,Técnico/a
+744,España,Cataluña,no_binario,32,19357.95,Secundaria,Secundaria,25820.66,Técnico/a
+745,España,Canarias,hombre,53,15870.12,Primaria,Primaria,19245.62,Técnico/a junior
+746,España,Navarra,hombre,31,16277.26,Secundaria,Secundaria,21421.6,Técnico/a junior
+747,España,Castilla-La Mancha,mujer,32,14108.32,FP,FP,22559.3,Técnico/a
+748,España,Comunidad Valenciana,hombre,37,23522.35,,Universidad,25238.45,Técnico/a
+749,España,Navarra,hombre,30,19325.63,Secundaria,Secundaria,20757.98,Técnico/a junior
+750,España,Extremadura,mujer,42,19160.48,,Universidad,23214.08,Técnico/a
+751,España,Aragón,mujer,26,20113.66,FP,FP,22564.13,Técnico/a
+752,España,País Vasco,hombre,32,19415.22,FP,Universidad,25637.41,Técnico/a
+753,España,Extremadura,hombre,35,14420.43,Secundaria,Secundaria,19696.58,Técnico/a junior
+754,España,Castilla y León,hombre,25,18004.29,Secundaria,Primaria,11213.71,Servicios básicos
+755,España,Asturias,hombre,46,17420.05,Secundaria,Secundaria,21999.51,Técnico/a junior
+756,España,Madrid,hombre,53,17592.4,Secundaria,Secundaria,22360.29,Técnico/a
+757,España,Extremadura,hombre,30,15760.23,FP,FP,28040.71,Técnico/a
+758,España,Comunidad Valenciana,mujer,40,23266.77,FP,FP,24450.35,Técnico/a
+759,España,Navarra,mujer,51,22814.68,FP,FP,24221.46,Técnico/a
+760,España,Madrid,mujer,44,18470.68,Secundaria,Secundaria,25138.09,Técnico/a
+761,España,Asturias,hombre,36,12791.14,Primaria,Secundaria,17243.29,Técnico/a junior
+762,España,Castilla y León,hombre,35,20531.65,Universidad,Postgrado,31758.82,Técnico/a
+763,España,Canarias,hombre,53,16216.84,FP,FP,25093.69,Técnico/a
+764,España,Madrid,mujer,51,17360.0,FP,FP,23915.87,Técnico/a
+765,España,Andalucía,hombre,53,17955.99,Secundaria,FP,26673.23,Técnico/a
+766,España,Comunidad Valenciana,hombre,34,12567.9,Secundaria,FP,13897.25,Servicios básicos
+767,España,Madrid,hombre,27,19650.78,Secundaria,Secundaria,28956.17,Técnico/a
+768,España,Murcia,hombre,37,21840.23,FP,Secundaria,15569.52,Técnico/a junior
+769,España,Castilla y León,mujer,51,20084.25,FP,Universidad,31661.18,Técnico/a
+770,España,Madrid,hombre,27,27544.69,Universidad,FP,24068.61,Técnico/a
+771,España,Aragón,mujer,39,11542.82,Sin estudios,Sin estudios,21547.17,Técnico/a junior
+772,España,Murcia,mujer,40,17539.09,Primaria,Sin estudios,17471.77,Técnico/a junior
+773,España,Aragón,mujer,53,19803.04,Secundaria,Secundaria,17604.27,Técnico/a junior
+774,España,Castilla-La Mancha,hombre,37,19914.88,Secundaria,Primaria,25393.45,Técnico/a
+775,España,Madrid,hombre,41,24469.92,Universidad,Universidad,29178.19,Técnico/a
+776,España,Asturias,hombre,27,14093.64,Secundaria,Secundaria,17546.4,Técnico/a junior
+777,España,Canarias,hombre,44,16711.25,Primaria,Secundaria,28636.56,Técnico/a
+778,España,La Rioja,hombre,35,19685.29,Secundaria,Secundaria,22242.76,Técnico/a
+779,España,La Rioja,hombre,51,21257.79,FP,Universidad,20513.44,Técnico/a junior
+780,España,Extremadura,mujer,45,20447.55,Universidad,Postgrado,29785.5,Técnico/a
+781,España,Galicia,mujer,43,22882.57,,FP,23706.66,Técnico/a
+782,España,Comunidad Valenciana,mujer,46,18478.89,FP,Universidad,26663.65,Técnico/a
+783,España,Canarias,mujer,35,19905.52,Secundaria,Secundaria,20801.93,Técnico/a junior
+784,España,Castilla y León,mujer,54,21420.94,FP,Universidad,29608.94,Técnico/a
+785,España,Baleares,mujer,52,16353.64,Secundaria,FP,18935.91,Técnico/a junior
+786,España,Navarra,mujer,40,19519.71,Primaria,Secundaria,18866.21,Técnico/a junior
+787,España,Comunidad Valenciana,hombre,45,19065.9,FP,FP,24140.67,Técnico/a
+788,España,Castilla-La Mancha,mujer,27,19970.08,,FP,20837.42,Técnico/a junior
+789,España,Cataluña,mujer,46,40464.32,FP,FP,41729.9,Especialista
+790,España,País Vasco,mujer,30,21691.44,Universidad,Postgrado,32742.63,Especialista
+791,España,Asturias,hombre,38,14175.61,Secundaria,Primaria,17042.77,Técnico/a junior
+792,España,Comunidad Valenciana,mujer,48,13869.48,Primaria,Primaria,16049.79,Técnico/a junior
+793,España,Cataluña,mujer,42,22075.69,Secundaria,Secundaria,21014.76,Técnico/a junior
+794,España,Extremadura,hombre,41,15457.56,FP,Secundaria,19167.62,Técnico/a junior
+795,España,Andalucía,mujer,28,33672.96,Universidad,Universidad,30163.86,Técnico/a
+796,España,Murcia,mujer,47,22217.56,FP,Universidad,26604.68,Técnico/a
+797,España,País Vasco,mujer,39,31905.63,Universidad,Universidad,37892.12,Especialista
+798,España,Comunidad Valenciana,mujer,35,22762.95,Universidad,Universidad,23475.78,Técnico/a
+799,España,Galicia,mujer,50,18886.51,Secundaria,Secundaria,22681.19,Técnico/a
+800,España,Navarra,mujer,27,22387.2,Universidad,Universidad,29166.34,Técnico/a
+801,España,Galicia,hombre,27,16706.41,Secundaria,FP,23722.03,Técnico/a
+802,España,Asturias,hombre,40,15648.27,Primaria,Primaria,17146.19,Técnico/a junior
+803,España,Comunidad Valenciana,hombre,29,14269.73,FP,FP,16604.55,Técnico/a junior
+804,España,Extremadura,mujer,45,20882.75,Universidad,FP,23964.65,Técnico/a
+805,España,Castilla-La Mancha,hombre,53,13841.9,Secundaria,Secundaria,20409.69,Técnico/a junior
+806,España,La Rioja,mujer,34,18683.89,FP,FP,18690.6,Técnico/a junior
+807,España,País Vasco,mujer,43,24619.96,FP,FP,25062.38,Técnico/a
+808,España,Navarra,hombre,49,22535.6,FP,Secundaria,21279.72,Técnico/a junior
+809,España,Cataluña,mujer,28,15332.65,,FP,22408.12,Técnico/a
+810,España,Aragón,mujer,53,21843.25,FP,FP,24392.42,Técnico/a
+811,España,País Vasco,hombre,53,21632.33,FP,Universidad,30137.71,Técnico/a
+812,España,Murcia,hombre,43,18142.3,Secundaria,Secundaria,20724.03,Técnico/a junior
+813,España,Aragón,hombre,35,11731.54,Primaria,Primaria,19827.64,Técnico/a junior
+814,España,Navarra,hombre,26,25794.84,Secundaria,FP,28324.96,Técnico/a
+815,España,Murcia,no_binario,34,26219.63,FP,Secundaria,23995.36,Técnico/a
+816,España,Cataluña,mujer,53,21205.37,FP,FP,23149.32,Técnico/a
+817,España,Comunidad Valenciana,mujer,35,18706.68,Primaria,Primaria,15849.25,Técnico/a junior
+818,España,Castilla-La Mancha,mujer,49,19296.94,Secundaria,Secundaria,23629.69,Técnico/a
+819,España,Andalucía,mujer,44,18801.88,FP,FP,21276.45,Técnico/a junior
+820,España,Castilla y León,mujer,40,15867.64,Secundaria,FP,18050.16,Técnico/a junior
+821,España,Madrid,hombre,43,18731.78,Secundaria,FP,32969.63,Especialista
+822,España,Andalucía,hombre,47,16474.75,Primaria,Primaria,22807.88,Técnico/a
+823,España,Castilla y León,hombre,48,15751.08,FP,Universidad,23997.04,Técnico/a
+824,España,Castilla-La Mancha,mujer,35,16196.71,Secundaria,Secundaria,15499.19,Técnico/a junior
+825,España,Comunidad Valenciana,hombre,38,19786.42,Secundaria,Primaria,21345.26,Técnico/a junior
+826,España,Navarra,hombre,26,25654.74,Universidad,Postgrado,32424.48,Especialista
+827,España,Castilla y León,hombre,47,22286.9,Universidad,Postgrado,35052.07,Especialista
+828,España,Castilla y León,mujer,52,17978.72,Primaria,Primaria,16369.69,Técnico/a junior
+829,España,La Rioja,hombre,29,19532.15,Secundaria,FP,29043.09,Técnico/a
+830,España,Cataluña,mujer,51,25345.06,Universidad,FP,27543.98,Técnico/a
+831,España,Canarias,mujer,29,19482.82,Secundaria,FP,31535.91,Técnico/a
+832,España,Cataluña,mujer,43,14941.44,Secundaria,Secundaria,21653.19,Técnico/a junior
+833,España,Asturias,hombre,45,13508.3,Primaria,Secundaria,22923.8,Técnico/a
+834,España,Baleares,hombre,36,19612.47,Secundaria,FP,24233.3,Técnico/a
+835,España,Cataluña,mujer,42,22714.59,FP,Secundaria,20298.43,Técnico/a junior
+836,España,Castilla-La Mancha,mujer,28,13468.62,Primaria,Primaria,9000.0,Servicios básicos
+837,España,Navarra,mujer,46,20502.7,FP,Secundaria,25694.33,Técnico/a
+838,España,Castilla y León,mujer,41,15056.38,FP,Universidad,24270.52,Técnico/a
+839,España,Comunidad Valenciana,mujer,34,19740.48,Primaria,Secundaria,16516.7,Técnico/a junior
+840,España,Extremadura,mujer,44,25804.74,FP,FP,31059.3,Técnico/a
+841,España,Andalucía,hombre,30,12126.61,Sin estudios,Sin estudios,18884.41,Técnico/a junior
+842,España,Galicia,mujer,49,17626.38,Primaria,Primaria,22777.03,Técnico/a
+843,España,Baleares,mujer,38,16016.98,Secundaria,Secundaria,16823.31,Técnico/a junior
+844,España,País Vasco,mujer,35,17802.18,Primaria,Primaria,24533.51,Técnico/a
+845,España,Asturias,hombre,35,11699.47,Sin estudios,Primaria,16882.43,Técnico/a junior
+846,España,Castilla-La Mancha,hombre,53,15530.28,Primaria,Primaria,22086.44,Técnico/a
+847,España,Aragón,hombre,42,28503.29,FP,FP,29705.22,Técnico/a
+848,España,País Vasco,mujer,51,20276.52,Secundaria,Secundaria,24264.92,Técnico/a
+849,España,Cataluña,hombre,47,17514.69,Secundaria,FP,29349.44,Técnico/a
+850,España,Comunidad Valenciana,mujer,46,21662.62,Universidad,Universidad,30819.32,Técnico/a
+851,España,Andalucía,hombre,42,15132.76,Secundaria,FP,24853.09,Técnico/a
+852,España,Madrid,hombre,48,27517.9,FP,FP,28877.94,Técnico/a
+853,España,Baleares,hombre,47,17532.11,Primaria,Secundaria,21672.75,Técnico/a junior
+854,España,Navarra,hombre,35,18607.81,Secundaria,FP,16749.99,Técnico/a junior
+855,España,Baleares,hombre,45,19884.26,Secundaria,FP,24316.63,Técnico/a
+856,España,Baleares,mujer,36,13032.84,Secundaria,FP,25175.95,Técnico/a
+857,España,Andalucía,hombre,29,14339.29,Secundaria,Secundaria,20427.34,Técnico/a junior
+858,España,Cataluña,mujer,47,15557.31,FP,Secundaria,17852.52,Técnico/a junior
+859,España,Comunidad Valenciana,hombre,33,15515.32,Secundaria,FP,25747.93,Técnico/a
+860,España,Andalucía,mujer,51,21218.62,Secundaria,Secundaria,31954.14,Técnico/a
+861,España,Madrid,mujer,49,24375.14,Secundaria,FP,25652.54,Técnico/a
+862,España,Cataluña,mujer,33,19377.46,Primaria,Primaria,20165.03,Técnico/a junior
+863,España,Comunidad Valenciana,mujer,46,29381.8,FP,Secundaria,23046.23,Técnico/a
+864,España,Cataluña,mujer,34,15998.45,Primaria,Secundaria,21171.12,Técnico/a junior
+865,España,Castilla-La Mancha,hombre,46,21201.14,Universidad,Universidad,28530.53,Técnico/a
+866,España,Comunidad Valenciana,mujer,43,25947.47,FP,FP,24076.86,Técnico/a
+867,España,Asturias,mujer,25,16928.22,Secundaria,FP,21002.6,Técnico/a junior
+868,España,Baleares,hombre,31,16459.4,Secundaria,Secundaria,22040.89,Técnico/a
+869,España,Murcia,mujer,28,18618.17,Secundaria,Secundaria,22028.78,Técnico/a
+870,España,País Vasco,hombre,25,24336.6,Secundaria,Secundaria,30838.37,Técnico/a
+871,España,Castilla-La Mancha,hombre,39,14177.22,Secundaria,FP,20534.64,Técnico/a junior
+872,España,Canarias,hombre,32,12465.44,Primaria,Secundaria,15643.02,Técnico/a junior
+873,España,Galicia,hombre,36,21526.97,Universidad,Universidad,30196.72,Técnico/a
+874,España,Castilla-La Mancha,mujer,46,15443.26,FP,FP,22624.01,Técnico/a
+875,España,Andalucía,hombre,46,13286.88,Primaria,Sin estudios,14607.34,Servicios básicos
+876,España,Asturias,mujer,42,13321.92,Sin estudios,Sin estudios,16993.19,Técnico/a junior
+877,España,La Rioja,mujer,39,20816.15,FP,Secundaria,20026.25,Técnico/a junior
+878,España,Galicia,hombre,41,19936.25,FP,FP,21631.53,Técnico/a junior
+879,España,Andalucía,mujer,53,12556.07,Primaria,Secundaria,11002.62,Servicios básicos
+880,España,Canarias,hombre,38,17334.43,Secundaria,Secundaria,18652.76,Técnico/a junior
+881,España,Canarias,hombre,38,17727.68,FP,Universidad,19402.31,Técnico/a junior
+882,España,Galicia,hombre,42,18551.56,Secundaria,Secundaria,18110.29,Técnico/a junior
+883,España,Andalucía,hombre,44,20166.83,Universidad,Universidad,29004.28,Técnico/a
+884,España,Aragón,mujer,42,15367.47,FP,FP,15917.11,Técnico/a junior
+885,España,Madrid,mujer,40,21907.53,Secundaria,Secundaria,23816.94,Técnico/a
+886,España,Baleares,hombre,25,16212.71,Secundaria,Secundaria,21840.36,Técnico/a junior
+887,España,Galicia,mujer,47,20068.03,FP,FP,22719.21,Técnico/a
+888,España,Canarias,hombre,51,16464.2,Secundaria,Primaria,15783.33,Técnico/a junior
+889,España,Aragón,hombre,35,13050.34,Primaria,Secundaria,19011.51,Técnico/a junior
+890,España,Canarias,hombre,39,15618.68,FP,Secundaria,20652.75,Técnico/a junior
+891,España,La Rioja,mujer,36,24730.86,FP,Universidad,29610.32,Técnico/a
+892,España,Murcia,mujer,32,27379.92,Secundaria,Secundaria,22830.8,Técnico/a
+893,España,Madrid,mujer,46,21879.15,FP,Secundaria,27493.67,Técnico/a
+894,España,Castilla-La Mancha,mujer,44,18953.22,Secundaria,Secundaria,15941.36,Técnico/a junior
+895,España,Galicia,hombre,54,15664.48,FP,FP,23740.72,Técnico/a
+896,España,Baleares,mujer,30,17463.4,FP,FP,26379.47,Técnico/a
+897,España,Cantabria,mujer,27,14143.66,Secundaria,Secundaria,19061.24,Técnico/a junior
+898,España,Navarra,mujer,52,19680.24,Secundaria,Secundaria,20821.47,Técnico/a junior
+899,España,Andalucía,hombre,48,16461.59,Secundaria,Primaria,10852.05,Servicios básicos
+900,España,Aragón,hombre,50,13873.68,Primaria,Secundaria,23098.89,Técnico/a
+901,España,Baleares,mujer,54,17148.29,Primaria,Primaria,22809.81,Técnico/a
+902,España,Andalucía,mujer,37,14260.48,FP,FP,17262.42,Técnico/a junior
+903,España,Baleares,mujer,37,17261.67,Secundaria,FP,27452.5,Técnico/a
+904,España,Comunidad Valenciana,mujer,26,30902.12,FP,FP,29675.61,Técnico/a
+905,España,Castilla-La Mancha,hombre,29,21652.36,Universidad,Postgrado,29487.66,Técnico/a
+906,España,Navarra,hombre,41,19744.82,Primaria,Secundaria,25056.45,Técnico/a
+907,España,Madrid,mujer,30,29537.07,FP,Secundaria,26818.75,Técnico/a
+908,España,Castilla y León,mujer,26,21152.45,Secundaria,Secundaria,26265.05,Técnico/a
+909,España,Canarias,no_binario,28,14960.8,FP,FP,22850.22,Técnico/a
+910,España,Castilla-La Mancha,mujer,46,15752.7,Secundaria,Primaria,20527.8,Técnico/a junior
+911,España,Comunidad Valenciana,hombre,50,22565.17,FP,Universidad,30384.34,Técnico/a
+912,España,Canarias,mujer,35,17245.75,FP,FP,23996.42,Técnico/a
+913,España,Extremadura,mujer,32,15859.17,FP,Universidad,25248.19,Técnico/a
+914,España,Castilla-La Mancha,mujer,36,17831.83,Secundaria,FP,19883.38,Técnico/a junior
+915,España,Comunidad Valenciana,hombre,32,17118.75,Primaria,Primaria,17951.93,Técnico/a junior
+916,España,Cataluña,hombre,35,15792.3,Secundaria,FP,27174.61,Técnico/a
+917,España,Cantabria,mujer,46,16500.77,FP,FP,24273.8,Técnico/a
+918,España,País Vasco,mujer,44,21221.87,FP,Secundaria,25890.21,Técnico/a
+919,España,Madrid,mujer,32,28254.96,FP,FP,23667.02,Técnico/a
+920,España,Asturias,mujer,53,20778.23,FP,FP,23165.94,Técnico/a
+921,España,Murcia,mujer,32,20159.36,Universidad,Universidad,25857.78,Técnico/a
+922,España,Cataluña,mujer,50,13805.34,Sin estudios,Primaria,14496.7,Servicios básicos
+923,España,Navarra,hombre,54,18338.95,Secundaria,Secundaria,23415.68,Técnico/a
+924,España,Madrid,mujer,41,19763.16,Primaria,Primaria,13971.99,Servicios básicos
+925,España,Castilla-La Mancha,mujer,44,14341.98,Secundaria,Secundaria,21382.12,Técnico/a junior
+926,España,Andalucía,hombre,44,14300.05,FP,FP,25299.56,Técnico/a
+927,España,Canarias,mujer,47,19279.55,Secundaria,Secundaria,19941.35,Técnico/a junior
+928,España,Comunidad Valenciana,hombre,40,20752.92,Secundaria,Secundaria,21078.63,Técnico/a junior
+929,España,Extremadura,mujer,38,16793.55,FP,Secundaria,22943.55,Técnico/a
+930,España,Canarias,hombre,54,16333.99,Secundaria,Primaria,14742.47,Servicios básicos
+931,España,Asturias,hombre,35,15622.64,FP,FP,23626.53,Técnico/a
+932,España,Madrid,hombre,31,25847.57,FP,Secundaria,23254.83,Técnico/a
+933,España,País Vasco,no_binario,40,22848.28,Universidad,Universidad,27682.04,Técnico/a
+934,España,Comunidad Valenciana,mujer,37,16213.11,Secundaria,Secundaria,20331.87,Técnico/a junior
+935,España,Baleares,hombre,51,16684.39,Secundaria,Secundaria,21755.53,Técnico/a junior
+936,España,Canarias,mujer,39,17629.9,Primaria,Secundaria,13909.94,Servicios básicos
+937,España,Andalucía,mujer,48,16920.94,,FP,26921.74,Técnico/a
+938,España,Navarra,mujer,40,19181.25,Secundaria,Secundaria,19180.05,Técnico/a junior
+939,España,Aragón,hombre,51,19012.52,Secundaria,Secundaria,22343.01,Técnico/a
+940,España,Comunidad Valenciana,mujer,45,17176.29,Secundaria,Secundaria,25347.47,Técnico/a
+941,España,Cantabria,hombre,47,12537.83,Secundaria,FP,20625.68,Técnico/a junior
+942,España,Comunidad Valenciana,hombre,48,24576.24,FP,Secundaria,27515.83,Técnico/a
+943,España,Galicia,hombre,33,20734.5,FP,Secundaria,18309.84,Técnico/a junior
+944,España,Madrid,hombre,27,20298.55,FP,FP,31484.37,Técnico/a
+945,España,Baleares,mujer,43,21164.12,Secundaria,FP,24109.0,Técnico/a
+946,España,Andalucía,mujer,44,12656.35,Sin estudios,Primaria,13926.83,Servicios básicos
+947,España,Asturias,mujer,29,12000.29,Secundaria,FP,14396.82,Servicios básicos
+948,España,Navarra,mujer,34,26488.02,Universidad,Postgrado,35622.92,Especialista
+949,España,Murcia,mujer,41,24938.79,FP,FP,28217.4,Técnico/a
+950,España,Extremadura,mujer,39,22013.6,Secundaria,Secundaria,24589.95,Técnico/a
+951,España,Extremadura,mujer,47,17007.4,Secundaria,FP,17001.18,Técnico/a junior
+952,España,Galicia,hombre,49,22819.13,Universidad,Postgrado,33601.9,Especialista
+953,España,Baleares,hombre,32,22784.76,FP,Universidad,33344.04,Especialista
+954,España,Navarra,mujer,39,21647.32,FP,Secundaria,23892.99,Técnico/a
+955,España,Castilla-La Mancha,hombre,45,19346.11,FP,Secundaria,18001.2,Técnico/a junior
+956,España,Castilla-La Mancha,mujer,54,16094.42,Secundaria,Secundaria,10473.93,Servicios básicos
+957,España,Cataluña,mujer,38,19949.4,FP,Secundaria,25967.17,Técnico/a
+958,España,Andalucía,hombre,44,13023.16,Sin estudios,Primaria,15563.98,Técnico/a junior
+959,España,Asturias,mujer,52,19478.36,Secundaria,FP,24237.94,Técnico/a
+960,España,La Rioja,mujer,31,21864.97,FP,FP,24128.82,Técnico/a
+961,España,Aragón,no_binario,45,14261.11,Secundaria,Secundaria,19238.26,Técnico/a junior
+962,España,Extremadura,hombre,47,23054.46,Secundaria,Secundaria,24954.42,Técnico/a
+963,España,Canarias,hombre,36,16846.37,Secundaria,Secundaria,13081.29,Servicios básicos
+964,España,Castilla-La Mancha,hombre,41,18705.22,Primaria,Primaria,22369.19,Técnico/a
+965,España,Cantabria,hombre,41,17805.96,FP,Secundaria,19375.18,Técnico/a junior
+966,España,Castilla y León,mujer,34,17543.88,FP,FP,27976.88,Técnico/a
+967,España,La Rioja,mujer,54,18094.79,Secundaria,Primaria,16520.3,Técnico/a junior
+968,España,Cantabria,mujer,53,18893.62,Secundaria,FP,20576.79,Técnico/a junior
+969,España,Comunidad Valenciana,mujer,43,22369.37,FP,FP,24194.97,Técnico/a
+970,España,Cataluña,hombre,38,21533.04,FP,Universidad,32844.55,Especialista
+971,España,Galicia,mujer,35,16597.21,Secundaria,Secundaria,18508.51,Técnico/a junior
+972,España,País Vasco,hombre,26,21044.07,Universidad,Postgrado,36870.8,Especialista
+973,España,La Rioja,hombre,42,17578.13,Primaria,Primaria,16564.2,Técnico/a junior
+974,España,Canarias,hombre,31,17938.0,Secundaria,Secundaria,20194.22,Técnico/a junior
+975,España,Andalucía,hombre,36,11904.17,Primaria,Primaria,23449.12,Técnico/a
+976,España,Canarias,hombre,50,13361.39,Primaria,Primaria,17461.8,Técnico/a junior
+977,España,Comunidad Valenciana,mujer,26,17036.27,FP,FP,23557.52,Técnico/a
+978,España,Andalucía,hombre,51,21581.58,FP,FP,19163.12,Técnico/a junior
+979,España,Cataluña,mujer,44,19055.44,Secundaria,FP,30549.22,Técnico/a
+980,España,Comunidad Valenciana,hombre,42,16843.13,FP,Secundaria,23312.04,Técnico/a
+981,España,Castilla y León,mujer,30,19748.4,FP,FP,20892.62,Técnico/a junior
+982,España,Madrid,hombre,48,21373.48,FP,FP,30781.24,Técnico/a
+983,España,Aragón,hombre,34,35486.7,Postgrado,Postgrado,41709.38,Especialista
+984,España,Andalucía,mujer,44,22520.39,Universidad,Universidad,28494.2,Técnico/a
+985,España,La Rioja,mujer,39,21041.42,Secundaria,Secundaria,25986.98,Técnico/a
+986,España,Cataluña,no_binario,29,17594.73,Secundaria,FP,23191.63,Técnico/a
+987,España,Galicia,mujer,44,22828.46,Universidad,Postgrado,29767.33,Técnico/a
+988,España,Cataluña,hombre,27,15531.8,Secundaria,FP,24546.66,Técnico/a
+989,España,Canarias,hombre,29,16449.36,Secundaria,FP,23579.28,Técnico/a
+990,España,Madrid,mujer,54,18748.52,Secundaria,Secundaria,26271.36,Técnico/a
+991,España,Madrid,mujer,49,17753.11,Secundaria,Secundaria,21859.23,Técnico/a junior
+992,España,Galicia,mujer,32,17759.9,Secundaria,Secundaria,17017.76,Técnico/a junior
+993,España,Canarias,hombre,32,16117.59,Secundaria,FP,30413.25,Técnico/a
+994,España,Comunidad Valenciana,mujer,32,19828.86,Secundaria,Primaria,15027.61,Técnico/a junior
+995,España,Castilla y León,hombre,36,13117.45,Primaria,Secundaria,18095.77,Técnico/a junior
+996,España,Aragón,hombre,48,15929.17,FP,FP,24197.27,Técnico/a
+997,España,Navarra,hombre,47,21826.61,FP,Universidad,31961.06,Técnico/a
+998,España,Asturias,hombre,32,20355.1,Universidad,FP,21713.91,Técnico/a junior
+999,España,País Vasco,no_binario,35,18450.25,FP,Universidad,22543.61,Técnico/a
+1000,España,Cataluña,mujer,38,21240.81,FP,Universidad,28840.14,Técnico/a
+1001,España,Baleares,hombre,32,14911.49,Secundaria,Secundaria,23970.02,Técnico/a
+1002,España,Comunidad Valenciana,hombre,53,16286.52,Secundaria,Primaria,19627.28,Técnico/a junior
+1003,España,Murcia,hombre,54,19177.25,Primaria,Sin estudios,19880.73,Técnico/a junior
+1004,España,La Rioja,hombre,48,18929.28,Secundaria,Primaria,20957.18,Técnico/a junior
+1005,España,Madrid,mujer,52,17629.39,Primaria,Secundaria,27015.51,Técnico/a
+1006,España,Galicia,mujer,34,25749.88,Secundaria,Secundaria,20871.84,Técnico/a junior
+1007,España,Galicia,hombre,31,19731.29,Secundaria,Secundaria,16686.44,Técnico/a junior
+1008,España,Murcia,mujer,52,24988.24,,Secundaria,24541.39,Técnico/a
+1009,España,Canarias,hombre,41,18219.27,Secundaria,Secundaria,16528.84,Técnico/a junior
+1010,España,Cataluña,hombre,28,29175.39,Secundaria,FP,27108.52,Técnico/a
+1011,España,Canarias,mujer,53,22916.28,Universidad,Universidad,32843.64,Especialista
+1012,España,País Vasco,hombre,37,20161.86,FP,Secundaria,24477.84,Técnico/a
+1013,España,País Vasco,mujer,28,19540.27,Secundaria,FP,26182.62,Técnico/a
+1014,España,Andalucía,hombre,29,17380.11,Secundaria,Secundaria,19993.51,Técnico/a junior
+1015,España,Galicia,hombre,50,20978.88,Secundaria,Secundaria,21069.01,Técnico/a junior
+1016,España,Navarra,hombre,46,20345.43,FP,FP,27954.44,Técnico/a
+1017,España,Baleares,mujer,28,25478.4,FP,Universidad,28338.67,Técnico/a
+1018,España,Comunidad Valenciana,mujer,42,26137.05,Secundaria,FP,21166.99,Técnico/a junior
+1019,España,Navarra,hombre,30,21632.74,FP,FP,21065.57,Técnico/a junior
+1020,España,Andalucía,hombre,48,22082.93,Universidad,FP,25581.86,Técnico/a
+1021,España,Galicia,hombre,48,17894.67,FP,Universidad,31986.03,Técnico/a
+1022,España,Cantabria,mujer,47,19131.97,Primaria,Sin estudios,20559.77,Técnico/a junior
+1023,España,Navarra,mujer,46,20890.5,Universidad,Postgrado,33104.6,Especialista
+1024,España,País Vasco,mujer,26,20186.15,Secundaria,FP,26167.94,Técnico/a
+1025,España,País Vasco,hombre,47,18437.81,FP,Universidad,24433.95,Técnico/a
+1026,España,Cataluña,mujer,35,21007.93,FP,Universidad,32558.3,Especialista
+1027,España,Murcia,mujer,52,17588.6,FP,FP,29395.54,Técnico/a
+1028,España,Murcia,hombre,38,23672.28,Universidad,FP,24530.63,Técnico/a
+1029,España,Castilla y León,mujer,54,17715.18,FP,Universidad,23601.59,Técnico/a
+1030,España,Madrid,no_binario,29,34218.62,FP,FP,33545.18,Especialista
+1031,España,Andalucía,hombre,30,18381.56,Primaria,Primaria,20343.66,Técnico/a junior
+1032,España,Comunidad Valenciana,hombre,34,20458.11,FP,FP,24141.94,Técnico/a
+1033,España,Canarias,mujer,32,18647.81,Secundaria,Secundaria,23576.56,Técnico/a
+1034,España,Aragón,mujer,38,12238.87,Primaria,Sin estudios,14764.29,Servicios básicos
+1035,España,Andalucía,hombre,48,11152.2,Primaria,Primaria,14473.1,Servicios básicos
+1036,España,Galicia,hombre,27,18614.15,Primaria,Primaria,19140.25,Técnico/a junior
+1037,España,Castilla y León,hombre,36,18790.33,Secundaria,Primaria,16521.3,Técnico/a junior
+1038,España,La Rioja,mujer,40,25002.83,Universidad,Universidad,35854.31,Especialista
+1039,España,Andalucía,hombre,52,14281.92,Primaria,Primaria,19465.08,Técnico/a junior
+1040,España,Castilla y León,hombre,54,63402.25,Universidad,Postgrado,54921.02,Responsable/Consultor/a
+1041,España,Comunidad Valenciana,hombre,47,16678.85,Secundaria,Primaria,14944.78,Servicios básicos
+1042,España,Madrid,hombre,41,19575.32,Primaria,Sin estudios,21788.75,Técnico/a junior
+1043,España,Castilla y León,hombre,25,17950.23,FP,FP,23128.53,Técnico/a
+1044,España,Extremadura,hombre,47,19323.1,Primaria,Secundaria,21754.19,Técnico/a junior
+1045,España,Murcia,mujer,34,17781.75,FP,Universidad,24929.84,Técnico/a
+1046,España,Extremadura,mujer,49,21013.23,Secundaria,Primaria,20903.46,Técnico/a junior
+1047,España,Canarias,mujer,47,17822.99,Primaria,Primaria,17428.19,Técnico/a junior
+1048,España,Andalucía,mujer,34,18121.03,FP,FP,24544.83,Técnico/a
+1049,España,Murcia,mujer,45,16137.9,FP,FP,24279.1,Técnico/a
+1050,España,Andalucía,mujer,48,16572.76,FP,Secundaria,25081.33,Técnico/a
+1051,España,Murcia,mujer,26,15674.09,FP,FP,19538.29,Técnico/a junior
+1052,España,Comunidad Valenciana,mujer,33,18420.55,Secundaria,Secundaria,20250.33,Técnico/a junior
+1053,España,País Vasco,hombre,46,22952.65,FP,FP,23742.68,Técnico/a
+1054,España,Madrid,hombre,37,23586.1,Universidad,Postgrado,43116.64,Especialista
+1055,España,País Vasco,mujer,49,20434.49,FP,Universidad,23471.69,Técnico/a
+1056,España,Castilla y León,hombre,40,16245.56,Secundaria,Secundaria,25200.54,Técnico/a
+1057,España,Madrid,hombre,42,16902.0,FP,Secundaria,22285.75,Técnico/a
+1058,España,Castilla-La Mancha,mujer,43,13651.34,Primaria,Primaria,17793.29,Técnico/a junior
+1059,España,Cataluña,mujer,36,18927.72,Secundaria,Secundaria,22399.73,Técnico/a
+1060,España,Extremadura,hombre,32,13910.48,Sin estudios,Sin estudios,15629.61,Técnico/a junior
+1061,España,Murcia,hombre,41,15045.2,,FP,23081.08,Técnico/a
+1062,España,País Vasco,hombre,39,21629.54,Secundaria,Secundaria,18613.02,Técnico/a junior
+1063,España,Madrid,mujer,34,17285.67,Secundaria,FP,22527.77,Técnico/a
+1064,España,Castilla-La Mancha,mujer,39,13473.75,Primaria,Sin estudios,12396.01,Servicios básicos
+1065,España,Castilla-La Mancha,mujer,39,16118.54,FP,FP,23129.66,Técnico/a
+1066,España,La Rioja,mujer,47,17829.94,Secundaria,Secundaria,20038.75,Técnico/a junior
+1067,España,Canarias,mujer,31,13698.49,Sin estudios,Primaria,18511.22,Técnico/a junior
+1068,España,Aragón,mujer,37,15157.74,Primaria,Sin estudios,16574.55,Técnico/a junior
+1069,España,Castilla y León,hombre,41,18522.22,FP,FP,26480.26,Técnico/a
+1070,España,Cantabria,hombre,33,14857.79,Secundaria,Secundaria,16095.05,Técnico/a junior
+1071,España,Cantabria,mujer,32,15166.21,,Secundaria,19028.34,Técnico/a junior
+1072,España,Canarias,hombre,44,16099.52,Primaria,Primaria,21203.08,Técnico/a junior
+1073,España,Andalucía,mujer,50,16943.95,FP,FP,25162.39,Técnico/a
+1074,España,Andalucía,mujer,51,18572.3,FP,FP,17621.68,Técnico/a junior
+1075,España,País Vasco,mujer,45,33687.01,FP,FP,30494.56,Técnico/a
+1076,España,Castilla-La Mancha,hombre,42,12290.36,Primaria,Primaria,15491.33,Técnico/a junior
+1077,España,Castilla-La Mancha,hombre,37,16993.47,FP,FP,21182.78,Técnico/a junior
+1078,España,Galicia,hombre,40,24032.71,Universidad,Universidad,28973.85,Técnico/a
+1079,España,Canarias,mujer,33,23572.79,FP,FP,28107.35,Técnico/a
+1080,España,País Vasco,hombre,36,28092.31,Universidad,Postgrado,41030.7,Especialista
+1081,España,Madrid,mujer,36,28138.29,Universidad,FP,32153.22,Especialista
+1082,España,Aragón,hombre,30,25468.09,FP,Universidad,32376.77,Especialista
+1083,España,Castilla-La Mancha,hombre,43,18547.63,Primaria,Sin estudios,21054.08,Técnico/a junior
+1084,España,Murcia,mujer,52,28574.81,FP,Secundaria,14162.62,Servicios básicos
+1085,España,País Vasco,hombre,31,18076.34,Primaria,Secundaria,21197.28,Técnico/a junior
+1086,España,Cataluña,hombre,49,18077.6,Secundaria,FP,22166.86,Técnico/a
+1087,España,Extremadura,mujer,27,18504.34,FP,FP,24429.79,Técnico/a
+1088,España,Asturias,hombre,40,14791.45,FP,FP,19277.53,Técnico/a junior
+1089,España,País Vasco,mujer,42,18179.47,Secundaria,FP,25580.26,Técnico/a
+1090,España,Canarias,hombre,40,22520.69,Universidad,Universidad,31314.42,Técnico/a
+1091,España,País Vasco,hombre,47,21209.47,Universidad,Universidad,28775.4,Técnico/a
+1092,España,Galicia,hombre,31,19696.51,Primaria,Primaria,20046.94,Técnico/a junior
+1093,España,Extremadura,hombre,28,16112.98,Secundaria,Secundaria,24689.24,Técnico/a
+1094,España,Cataluña,hombre,51,20525.63,FP,Secundaria,26695.57,Técnico/a
+1095,España,Canarias,mujer,49,22845.26,Universidad,Postgrado,26756.31,Técnico/a
+1096,España,Baleares,hombre,54,18315.25,,FP,24370.28,Técnico/a
+1097,España,Canarias,mujer,32,14384.29,Secundaria,Primaria,17870.99,Técnico/a junior
+1098,España,Baleares,hombre,37,22836.04,Secundaria,Secundaria,26884.11,Técnico/a
+1099,España,Madrid,mujer,37,15569.22,Primaria,Secundaria,20403.67,Técnico/a junior
+1100,España,Castilla y León,mujer,41,20813.99,FP,Universidad,25109.6,Técnico/a
+1101,España,Andalucía,hombre,41,12949.52,Sin estudios,Primaria,16281.73,Técnico/a junior
+1102,España,País Vasco,mujer,29,29042.86,FP,Universidad,32135.23,Especialista
+1103,España,Murcia,hombre,30,32840.7,Universidad,Universidad,38125.31,Especialista
+1104,España,Navarra,mujer,43,18948.36,Secundaria,Secundaria,27067.15,Técnico/a
+1105,España,País Vasco,mujer,37,20244.7,Universidad,Postgrado,35664.26,Especialista
+1106,España,Baleares,hombre,49,19199.12,Secundaria,Primaria,19991.19,Técnico/a junior
+1107,España,Castilla-La Mancha,mujer,52,16503.45,Primaria,Sin estudios,19805.72,Técnico/a junior
+1108,España,Madrid,mujer,50,16005.53,Primaria,Sin estudios,20982.52,Técnico/a junior
+1109,España,Galicia,hombre,38,27940.27,Universidad,Universidad,30489.2,Técnico/a
+1110,España,Asturias,mujer,46,14944.21,Secundaria,Primaria,16684.95,Técnico/a junior
+1111,España,Madrid,hombre,28,21785.91,FP,FP,25217.14,Técnico/a
+1112,España,Canarias,mujer,52,14949.41,FP,FP,21550.9,Técnico/a junior
+1113,España,Canarias,mujer,31,18151.29,Secundaria,Primaria,19197.45,Técnico/a junior
+1114,España,Comunidad Valenciana,hombre,32,19802.14,Secundaria,FP,20689.81,Técnico/a junior
+1115,España,Comunidad Valenciana,mujer,49,20878.58,FP,FP,20201.44,Técnico/a junior
+1116,España,Comunidad Valenciana,mujer,37,17235.0,Secundaria,Secundaria,15114.7,Técnico/a junior
+1117,España,Aragón,mujer,51,13082.51,Secundaria,Secundaria,19345.0,Técnico/a junior
+1118,España,Murcia,mujer,30,18594.33,FP,FP,22771.35,Técnico/a
+1119,España,Canarias,hombre,30,31820.97,FP,FP,29185.26,Técnico/a
+1120,España,Aragón,mujer,48,19509.23,FP,Universidad,28223.16,Técnico/a
+1121,España,Murcia,hombre,52,21078.43,Secundaria,Secundaria,18331.93,Técnico/a junior
+1122,España,País Vasco,hombre,45,37455.43,Postgrado,Postgrado,43114.54,Especialista
+1123,España,Murcia,mujer,54,17156.83,Secundaria,Secundaria,20564.36,Técnico/a junior
+1124,España,Madrid,hombre,27,22474.55,FP,FP,21688.86,Técnico/a junior
+1125,España,Galicia,mujer,52,30696.93,Universidad,Universidad,32134.99,Especialista
+1126,España,Comunidad Valenciana,hombre,27,19962.05,FP,Universidad,35490.7,Especialista
+1127,España,Aragón,mujer,37,18653.2,Secundaria,Primaria,13634.66,Servicios básicos
+1128,España,Castilla-La Mancha,hombre,46,15435.68,FP,FP,19715.48,Técnico/a junior
+1129,España,Castilla-La Mancha,hombre,26,18633.82,FP,FP,15401.32,Técnico/a junior
+1130,España,Canarias,mujer,40,27765.36,FP,FP,26615.69,Técnico/a
+1131,España,La Rioja,hombre,46,19150.87,Secundaria,Secundaria,27500.77,Técnico/a
+1132,España,Cataluña,hombre,53,25040.52,Universidad,Universidad,34991.55,Especialista
+1133,España,Aragón,mujer,30,13207.22,Primaria,Primaria,14000.7,Servicios básicos
+1134,España,Canarias,mujer,32,18865.75,Secundaria,Primaria,26075.57,Técnico/a
+1135,España,Galicia,hombre,47,19076.77,FP,FP,16956.46,Técnico/a junior
+1136,España,Andalucía,hombre,32,21935.61,FP,FP,26084.35,Técnico/a
+1137,España,Murcia,hombre,54,28567.1,,FP,28065.01,Técnico/a
+1138,España,Cataluña,hombre,49,19695.2,FP,Universidad,29044.38,Técnico/a
+1139,España,Cataluña,hombre,30,19986.57,Primaria,Secundaria,26338.05,Técnico/a
+1140,España,Comunidad Valenciana,hombre,38,32847.39,Universidad,Postgrado,34695.99,Especialista
+1141,España,Madrid,mujer,27,25707.51,FP,Universidad,34881.81,Especialista
+1142,España,Castilla y León,mujer,34,15276.97,Secundaria,Secundaria,19524.44,Técnico/a junior
+1143,España,Galicia,hombre,27,18834.11,Secundaria,FP,19883.85,Técnico/a junior
+1144,España,Comunidad Valenciana,hombre,51,18288.61,FP,Universidad,32719.22,Especialista
+1145,España,Canarias,mujer,36,20782.33,Universidad,Postgrado,30324.04,Técnico/a
+1146,España,Murcia,mujer,41,24985.59,FP,FP,25547.46,Técnico/a
+1147,España,Madrid,hombre,51,25043.38,Secundaria,Primaria,19858.81,Técnico/a junior
+1148,España,Galicia,hombre,53,15004.31,FP,FP,20430.48,Técnico/a junior
+1149,España,Murcia,mujer,29,27799.16,FP,FP,35622.42,Especialista
+1150,España,Murcia,mujer,54,19022.35,,Primaria,,Técnico/a junior
+1151,España,La Rioja,mujer,44,17233.35,Secundaria,Secundaria,21570.46,Técnico/a junior
+1152,España,Madrid,mujer,49,24551.23,Secundaria,FP,32238.4,Especialista
+1153,España,Galicia,mujer,33,28561.24,FP,FP,27199.96,Técnico/a
+1154,España,Galicia,mujer,54,25368.7,Universidad,Universidad,28538.81,Técnico/a
+1155,España,Extremadura,hombre,45,21076.38,Universidad,Universidad,29152.92,Técnico/a
+1156,España,Madrid,mujer,50,23658.72,FP,FP,27563.27,Técnico/a
+1157,España,Asturias,hombre,44,13219.96,Sin estudios,Sin estudios,14095.18,Servicios básicos
+1158,España,Murcia,hombre,31,23400.33,Universidad,Postgrado,35958.33,Especialista
+1159,España,Murcia,mujer,46,17407.54,Secundaria,Primaria,17607.07,Técnico/a junior
+1160,España,Andalucía,hombre,28,28325.62,FP,FP,31962.45,Técnico/a
+1161,España,Madrid,mujer,37,20480.4,FP,Universidad,30093.77,Técnico/a
+1162,España,Aragón,hombre,37,14457.37,Primaria,Secundaria,13895.63,Servicios básicos
+1163,España,Castilla y León,mujer,34,15052.48,Secundaria,Secundaria,9000.0,Servicios básicos
+1164,España,Madrid,hombre,42,24053.55,Universidad,Postgrado,30632.81,Técnico/a
+1165,España,Asturias,hombre,41,19892.99,FP,Universidad,20987.5,Técnico/a junior
+1166,España,Madrid,mujer,44,21980.46,FP,FP,28393.21,Técnico/a
+1167,España,Madrid,mujer,44,24220.32,FP,FP,25325.02,Técnico/a
+1168,España,Cataluña,hombre,37,20718.18,FP,Universidad,,Técnico/a
+1169,España,Andalucía,hombre,41,14941.54,FP,FP,20512.37,Técnico/a junior
+1170,España,Cantabria,mujer,46,13445.7,Primaria,Primaria,12459.11,Servicios básicos
+1171,España,Extremadura,hombre,28,26040.38,FP,Universidad,31980.11,Técnico/a
+1172,España,País Vasco,mujer,25,24983.22,FP,Secundaria,27565.48,Técnico/a
+1173,España,Extremadura,hombre,25,23468.32,FP,Secundaria,24465.05,Técnico/a
+1174,España,Canarias,mujer,39,21846.91,FP,FP,15496.86,Técnico/a junior
+1175,España,Extremadura,hombre,37,21149.48,Secundaria,FP,24258.27,Técnico/a
+1176,España,Comunidad Valenciana,mujer,41,18776.03,Secundaria,Secundaria,20024.31,Técnico/a junior
+1177,España,Madrid,mujer,48,27125.54,Secundaria,Secundaria,22835.52,Técnico/a
+1178,España,Aragón,mujer,50,16173.29,Secundaria,Secundaria,11796.97,Servicios básicos
+1179,España,Madrid,mujer,32,21180.96,FP,FP,26628.63,Técnico/a
+1180,España,Comunidad Valenciana,hombre,42,17779.09,Secundaria,Secundaria,23725.0,Técnico/a
+1181,España,País Vasco,mujer,51,26249.46,FP,Universidad,25101.1,Técnico/a
+1182,España,Castilla y León,hombre,37,17508.07,Primaria,Secundaria,16964.81,Técnico/a junior
+1183,España,Extremadura,mujer,47,21882.36,FP,FP,24929.08,Técnico/a
+1184,España,País Vasco,mujer,38,21648.13,Universidad,Postgrado,39245.67,Especialista
+1185,España,Aragón,mujer,32,12466.73,Primaria,Primaria,14755.73,Servicios básicos
+1186,España,País Vasco,mujer,32,26183.96,FP,FP,36591.63,Especialista
+1187,España,Galicia,mujer,51,22571.73,FP,FP,18532.58,Técnico/a junior
+1188,España,Andalucía,mujer,50,15111.35,FP,Universidad,17004.85,Técnico/a junior
+1189,España,Cantabria,hombre,39,19245.44,FP,FP,26701.7,Técnico/a
+1190,España,La Rioja,mujer,51,25054.15,FP,Universidad,21567.51,Técnico/a junior
+1191,España,Andalucía,hombre,37,25905.31,FP,FP,28111.64,Técnico/a
+1192,España,Comunidad Valenciana,hombre,31,20188.3,FP,Secundaria,20053.87,Técnico/a junior
+1193,España,Castilla y León,mujer,29,18389.74,FP,FP,19554.93,Técnico/a junior
+1194,España,Extremadura,mujer,41,20393.12,Universidad,FP,22224.8,Técnico/a
+1195,España,Andalucía,hombre,52,14698.74,Secundaria,Secundaria,14102.68,Servicios básicos
+1196,España,Murcia,hombre,49,21613.62,Universidad,FP,23219.1,Técnico/a
+1197,España,País Vasco,hombre,53,20029.94,FP,Universidad,30185.88,Técnico/a
+1198,España,País Vasco,mujer,40,20458.3,FP,Universidad,28944.48,Técnico/a
+1199,España,Madrid,hombre,47,18056.73,FP,Universidad,26804.68,Técnico/a
+1200,España,Asturias,hombre,26,16631.99,,FP,22712.0,Técnico/a
+1201,España,Madrid,hombre,46,20711.73,FP,Universidad,36373.25,Especialista
+1202,España,Andalucía,hombre,42,17925.67,Secundaria,Secundaria,19134.84,Técnico/a junior
+1203,España,Andalucía,mujer,41,12410.51,Primaria,Primaria,18696.22,Técnico/a junior
+1204,España,Castilla y León,mujer,54,21602.43,Universidad,FP,20946.01,Técnico/a junior
+1205,España,Cataluña,hombre,31,18062.41,Secundaria,Secundaria,17874.17,Técnico/a junior
+1206,España,Madrid,hombre,37,15309.26,Secundaria,Primaria,20626.88,Técnico/a junior
+1207,España,Galicia,mujer,42,22640.36,FP,FP,24033.37,Técnico/a
+1208,España,Cataluña,mujer,53,17436.58,Secundaria,FP,28848.64,Técnico/a
+1209,España,Cantabria,mujer,38,27498.57,Secundaria,Secundaria,29013.34,Técnico/a
+1210,España,País Vasco,mujer,54,18582.28,FP,Universidad,32127.8,Especialista
+1211,España,Castilla-La Mancha,hombre,42,19772.6,Secundaria,Secundaria,23758.42,Técnico/a
+1212,España,Cataluña,hombre,37,16078.16,FP,Universidad,15586.77,Técnico/a junior
+1213,España,Asturias,mujer,35,11536.31,Sin estudios,Primaria,17028.03,Técnico/a junior
+1214,España,Madrid,mujer,45,33561.33,Universidad,Postgrado,47034.7,Responsable/Consultor/a
+1215,España,Galicia,mujer,54,19168.99,FP,FP,18649.93,Técnico/a junior
+1216,España,Canarias,mujer,45,15337.19,Secundaria,Secundaria,18932.44,Técnico/a junior
+1217,España,Aragón,hombre,40,19229.43,FP,FP,19482.08,Técnico/a junior
+1218,España,Galicia,hombre,47,20840.44,FP,FP,27539.87,Técnico/a
+1219,España,Galicia,hombre,41,14722.13,FP,FP,17513.96,Técnico/a junior
+1220,España,Cantabria,mujer,32,15185.19,Secundaria,Secundaria,16058.32,Técnico/a junior
+1221,España,País Vasco,hombre,43,19062.86,Primaria,Secundaria,21423.51,Técnico/a junior
+1222,España,Asturias,hombre,44,12796.64,Primaria,Primaria,23855.57,Técnico/a
+1223,España,Cataluña,hombre,39,17458.85,Secundaria,FP,28424.32,Técnico/a
+1224,España,País Vasco,mujer,33,38301.65,Postgrado,Postgrado,53122.96,Responsable/Consultor/a
+1225,España,Castilla-La Mancha,mujer,44,17920.71,Secundaria,Secundaria,13718.4,Servicios básicos
+1226,España,Extremadura,mujer,34,23839.17,Universidad,Universidad,24648.83,Técnico/a
+1227,España,Castilla-La Mancha,mujer,36,18800.7,Secundaria,Secundaria,25145.34,Técnico/a
+1228,España,Cantabria,mujer,45,13437.5,Sin estudios,Sin estudios,9179.28,Servicios básicos
+1229,España,País Vasco,mujer,47,19368.27,Primaria,Primaria,18530.55,Técnico/a junior
+1230,España,Castilla-La Mancha,mujer,44,21019.83,FP,Secundaria,28652.62,Técnico/a
+1231,España,Navarra,hombre,54,21849.6,FP,Universidad,24573.24,Técnico/a
+1232,España,Canarias,mujer,25,15835.67,Secundaria,Secundaria,12752.56,Servicios básicos
+1233,España,Baleares,mujer,49,12577.35,Sin estudios,Sin estudios,16978.3,Técnico/a junior
+1234,España,Andalucía,hombre,44,27015.41,FP,Secundaria,17927.83,Técnico/a junior
+1235,España,Galicia,hombre,33,33967.19,Universidad,FP,34889.84,Especialista
+1236,España,Castilla y León,hombre,46,19504.76,FP,Secundaria,17645.14,Técnico/a junior
+1237,España,Murcia,no_binario,39,20060.83,Universidad,FP,19717.32,Técnico/a junior
+1238,España,Cataluña,hombre,25,16750.7,Secundaria,Secundaria,21985.19,Técnico/a junior
+1239,España,País Vasco,hombre,36,22372.87,Universidad,Universidad,30220.85,Técnico/a
+1240,España,Baleares,mujer,27,24018.91,Universidad,Universidad,33581.5,Especialista
+1241,España,Murcia,mujer,35,20538.7,FP,FP,25616.77,Técnico/a
+1242,España,Madrid,mujer,26,17967.11,Secundaria,Secundaria,21734.92,Técnico/a junior
+1243,España,Madrid,mujer,40,30469.62,FP,Universidad,32794.69,Especialista
+1244,España,Murcia,mujer,33,17962.29,Secundaria,FP,25049.77,Técnico/a
+1245,España,Madrid,hombre,39,18551.65,Secundaria,FP,23097.9,Técnico/a
+1246,España,Extremadura,hombre,36,20553.23,FP,Secundaria,18207.14,Técnico/a junior
+1247,España,Asturias,hombre,25,13893.72,Secundaria,FP,20941.75,Técnico/a junior
+1248,España,Andalucía,mujer,37,18665.81,Secundaria,FP,16097.25,Técnico/a junior
+1249,España,Navarra,hombre,38,20151.45,FP,Secundaria,22436.22,Técnico/a
+1250,España,Extremadura,hombre,49,15431.1,Secundaria,Primaria,17734.76,Técnico/a junior
+1251,España,Madrid,mujer,49,23362.23,Secundaria,Secundaria,29140.93,Técnico/a
+1252,España,Cataluña,hombre,32,37610.8,FP,Secundaria,30644.47,Técnico/a
+1253,España,Aragón,mujer,32,18173.68,Secundaria,Secundaria,24815.07,Técnico/a
+1254,España,Aragón,mujer,51,26084.79,Universidad,FP,28440.48,Técnico/a
+1255,España,Galicia,hombre,54,26484.73,FP,FP,26694.54,Técnico/a
+1256,España,Cataluña,mujer,36,17041.84,Primaria,Primaria,26184.61,Técnico/a
+1257,España,Baleares,mujer,25,16372.92,FP,FP,24628.23,Técnico/a
+1258,España,Cataluña,hombre,35,21761.65,FP,FP,25522.53,Técnico/a
+1259,España,Andalucía,hombre,32,20146.99,Secundaria,FP,24027.52,Técnico/a
+1260,España,Comunidad Valenciana,mujer,34,20541.58,Universidad,Postgrado,28916.99,Técnico/a
+1261,España,Canarias,mujer,54,29506.36,FP,FP,29618.97,Técnico/a
+1262,España,Madrid,mujer,43,27338.83,Universidad,FP,35107.43,Especialista
+1263,España,Cantabria,hombre,35,19182.03,Primaria,Sin estudios,17509.11,Técnico/a junior
+1264,España,Cataluña,mujer,31,21055.65,FP,FP,27253.78,Técnico/a
+1265,España,Andalucía,mujer,35,10158.43,Sin estudios,Sin estudios,16878.01,Técnico/a junior
+1266,España,Andalucía,hombre,41,19263.96,Secundaria,Secundaria,24824.12,Técnico/a
+1267,España,Castilla-La Mancha,hombre,25,21117.93,Universidad,Universidad,25939.7,Técnico/a
+1268,España,Cataluña,mujer,50,16692.86,Secundaria,Secundaria,22456.38,Técnico/a
+1269,España,Extremadura,hombre,53,16292.59,Secundaria,Secundaria,22139.58,Técnico/a
+1270,España,Cantabria,hombre,45,14538.78,FP,FP,21922.38,Técnico/a junior
+1271,España,Galicia,mujer,45,26354.91,FP,Secundaria,17342.4,Técnico/a junior
+1272,España,Murcia,mujer,32,16353.8,Secundaria,FP,25121.86,Técnico/a
+1273,España,Madrid,hombre,47,18782.7,FP,FP,27485.34,Técnico/a
+1274,España,Andalucía,mujer,48,11844.8,Primaria,Primaria,17675.96,Técnico/a junior
+1275,España,Cataluña,hombre,30,15830.27,Secundaria,Secundaria,17245.93,Técnico/a junior
+1276,España,Aragón,mujer,46,13592.75,Primaria,Primaria,16838.43,Técnico/a junior
+1277,España,Canarias,mujer,42,10973.17,Sin estudios,Sin estudios,17348.95,Técnico/a junior
+1278,España,País Vasco,mujer,30,21206.12,Secundaria,Primaria,18633.06,Técnico/a junior
+1279,España,Asturias,mujer,29,13439.57,Primaria,Sin estudios,13168.73,Servicios básicos
+1280,España,Cataluña,mujer,37,22578.04,FP,Universidad,34780.42,Especialista
+1281,España,Extremadura,mujer,43,27096.89,Secundaria,Secundaria,21858.74,Técnico/a junior
+1282,España,Galicia,hombre,46,21350.79,FP,Universidad,26928.27,Técnico/a
+1283,España,Comunidad Valenciana,no_binario,32,18763.02,Primaria,Secundaria,16822.19,Técnico/a junior
+1284,España,Andalucía,hombre,33,21851.52,Secundaria,FP,30822.95,Técnico/a
+1285,España,Castilla y León,hombre,41,14533.56,Secundaria,Secundaria,20362.28,Técnico/a junior
+1286,España,Cataluña,mujer,27,17717.38,FP,FP,24160.02,Técnico/a
+1287,España,Aragón,hombre,43,12820.18,Primaria,Primaria,14443.86,Servicios básicos
+1288,España,Castilla y León,mujer,35,17345.09,FP,Secundaria,15506.01,Técnico/a junior
+1289,España,Andalucía,hombre,48,20745.29,Universidad,Universidad,26923.94,Técnico/a
+1290,España,Aragón,no_binario,41,17932.87,FP,FP,24805.87,Técnico/a
+1291,España,Castilla-La Mancha,hombre,45,27430.6,Universidad,Universidad,28325.68,Técnico/a
+1292,España,Asturias,no_binario,43,15124.03,FP,Universidad,24440.84,Técnico/a
+1293,España,Comunidad Valenciana,hombre,26,19275.52,Secundaria,Secundaria,19388.15,Técnico/a junior
+1294,España,Galicia,mujer,32,16581.68,Primaria,Primaria,,Técnico/a
+1295,España,Madrid,mujer,43,18055.01,Secundaria,Primaria,18057.31,Técnico/a junior
+1296,España,Baleares,hombre,31,16760.24,Secundaria,FP,27233.67,Técnico/a
+1297,España,Asturias,mujer,52,31661.07,Universidad,Postgrado,42937.93,Especialista
+1298,España,Aragón,hombre,51,25800.12,FP,FP,25123.3,Técnico/a
+1299,España,Extremadura,no_binario,41,16517.49,Secundaria,FP,19704.79,Técnico/a junior
+1300,España,Galicia,mujer,30,16618.09,FP,Universidad,28161.48,Técnico/a
+1301,España,Andalucía,hombre,43,16444.12,FP,Universidad,18597.53,Técnico/a junior
+1302,España,País Vasco,hombre,48,19621.96,Primaria,Primaria,22503.6,Técnico/a
+1303,España,Andalucía,hombre,30,12632.38,Primaria,Primaria,10402.49,Servicios básicos
+1304,España,Comunidad Valenciana,hombre,52,20155.47,FP,FP,27876.8,Técnico/a
+1305,España,La Rioja,hombre,26,15765.09,Secundaria,Secundaria,18211.95,Técnico/a junior
+1306,España,Murcia,hombre,30,23937.27,Universidad,FP,25186.66,Técnico/a
+1307,España,La Rioja,hombre,47,14953.81,Secundaria,Secundaria,16194.34,Técnico/a junior
+1308,España,Madrid,mujer,29,28386.42,,Secundaria,22207.28,Técnico/a
+1309,España,Castilla y León,mujer,43,19382.47,Secundaria,FP,27639.28,Técnico/a
+1310,España,Madrid,hombre,44,18221.02,Secundaria,Secundaria,22024.69,Técnico/a
+1311,España,Aragón,mujer,28,27701.85,FP,FP,38632.42,Especialista
+1312,España,Navarra,hombre,46,27167.75,FP,FP,24296.91,Técnico/a
+1313,España,Comunidad Valenciana,hombre,50,21679.55,Universidad,FP,22103.06,Técnico/a
+1314,España,Madrid,mujer,41,22807.6,Universidad,Universidad,28776.48,Técnico/a
+1315,España,Cataluña,hombre,35,14913.9,Primaria,Primaria,18244.38,Técnico/a junior
+1316,España,Galicia,hombre,28,20862.41,Secundaria,FP,29467.92,Técnico/a
+1317,España,Comunidad Valenciana,hombre,50,24368.81,FP,Secundaria,26501.45,Técnico/a
+1318,España,La Rioja,mujer,37,22684.64,Secundaria,FP,19607.12,Técnico/a junior
+1319,España,Aragón,mujer,44,19682.51,Secundaria,Secundaria,25071.55,Técnico/a
+1320,España,Andalucía,mujer,50,16170.86,FP,FP,23979.88,Técnico/a
+1321,España,Canarias,hombre,41,20856.34,FP,Universidad,29058.11,Técnico/a
+1322,España,Asturias,mujer,33,20539.9,Secundaria,FP,21397.27,Técnico/a junior
+1323,España,Murcia,hombre,28,17504.44,FP,Universidad,23307.87,Técnico/a
+1324,España,Canarias,mujer,47,17532.73,Secundaria,Secundaria,20369.46,Técnico/a junior
+1325,España,País Vasco,mujer,52,20320.77,FP,Universidad,28376.47,Técnico/a
+1326,España,Castilla y León,hombre,38,23270.65,Universidad,Universidad,33358.11,Especialista
+1327,España,Baleares,hombre,43,13155.69,Sin estudios,Sin estudios,14974.05,Servicios básicos
+1328,España,Madrid,mujer,50,16007.23,Secundaria,Secundaria,14693.97,Servicios básicos
+1329,España,Galicia,mujer,52,22836.86,FP,Universidad,23958.93,Técnico/a
+1330,España,Cataluña,mujer,27,14169.58,FP,Secundaria,16248.6,Técnico/a junior
+1331,España,Comunidad Valenciana,mujer,38,19482.7,Secundaria,Secundaria,19845.5,Técnico/a junior
+1332,España,La Rioja,hombre,32,30026.86,Postgrado,Postgrado,37748.76,Especialista
+1333,España,Canarias,mujer,48,17644.33,Secundaria,FP,22521.04,Técnico/a
+1334,España,País Vasco,mujer,51,16408.55,FP,FP,25928.28,Técnico/a
+1335,España,País Vasco,mujer,52,16387.58,Secundaria,FP,23420.28,Técnico/a
+1336,España,Galicia,hombre,25,16181.51,Secundaria,FP,20836.31,Técnico/a junior
+1337,España,Baleares,no_binario,34,17064.69,FP,Universidad,34343.48,Especialista
+1338,España,Galicia,mujer,42,16664.23,FP,Universidad,29177.35,Técnico/a
+1339,España,Andalucía,hombre,40,11808.45,Sin estudios,Sin estudios,16145.78,Técnico/a junior
+1340,España,Andalucía,mujer,32,23707.33,Universidad,Postgrado,36077.38,Especialista
+1341,España,Canarias,mujer,25,15363.27,Secundaria,FP,14441.34,Servicios básicos
+1342,España,Cataluña,hombre,36,21817.15,Universidad,Universidad,28398.99,Técnico/a
+1343,España,Murcia,hombre,32,17323.46,Primaria,Secundaria,18282.84,Técnico/a junior
+1344,España,La Rioja,hombre,48,16743.45,Secundaria,FP,19041.02,Técnico/a junior
+1345,España,Madrid,hombre,40,29840.19,FP,Universidad,31043.62,Técnico/a
+1346,España,Castilla-La Mancha,mujer,42,16612.42,Secundaria,FP,23284.56,Técnico/a
+1347,España,Castilla y León,hombre,28,17340.1,Primaria,Sin estudios,21682.71,Técnico/a junior
+1348,España,Castilla-La Mancha,mujer,30,13496.92,Primaria,Sin estudios,15317.74,Técnico/a junior
+1349,España,País Vasco,hombre,36,27511.11,Secundaria,Secundaria,29574.24,Técnico/a
+1350,España,Andalucía,mujer,51,16404.4,FP,Secundaria,19233.11,Técnico/a junior
+1351,España,Murcia,hombre,33,34784.66,Universidad,Universidad,33850.23,Especialista
+1352,España,Comunidad Valenciana,mujer,39,18231.66,Secundaria,Secundaria,23421.43,Técnico/a
+1353,España,Cataluña,mujer,40,20947.31,FP,FP,21878.47,Técnico/a junior
+1354,España,La Rioja,hombre,48,23138.06,Secundaria,FP,18579.67,Técnico/a junior
+1355,España,Cataluña,mujer,36,19498.52,Secundaria,Primaria,15892.48,Técnico/a junior
+1356,España,Murcia,hombre,48,19947.61,Secundaria,Secundaria,23963.98,Técnico/a
+1357,España,Navarra,mujer,47,25172.24,FP,FP,26432.05,Técnico/a
+1358,España,Castilla-La Mancha,mujer,38,20203.85,Universidad,Universidad,28315.3,Técnico/a
+1359,España,Cantabria,mujer,37,15389.73,Secundaria,Primaria,22902.07,Técnico/a
+1360,España,Comunidad Valenciana,mujer,49,25677.22,Universidad,Universidad,26078.39,Técnico/a
+1361,España,Navarra,hombre,26,24912.63,Secundaria,Primaria,25104.21,Técnico/a
+1362,España,Baleares,mujer,27,16087.91,Primaria,Secundaria,20161.17,Técnico/a junior
+1363,España,Extremadura,hombre,50,20293.09,FP,Universidad,25129.56,Técnico/a
+1364,España,Extremadura,hombre,48,22139.48,Universidad,FP,24882.57,Técnico/a
+1365,España,La Rioja,mujer,54,21692.97,Secundaria,Secundaria,22593.91,Técnico/a
+1366,España,Asturias,hombre,46,29534.84,Universidad,Universidad,31635.17,Técnico/a
+1367,España,La Rioja,hombre,34,19468.82,FP,FP,25388.39,Técnico/a
+1368,España,Navarra,hombre,33,21991.77,Universidad,Universidad,28325.61,Técnico/a
+1369,España,Baleares,mujer,50,29870.28,FP,FP,31216.31,Técnico/a
+1370,España,Canarias,mujer,44,20235.88,FP,FP,,Técnico/a
+1371,España,País Vasco,hombre,32,24711.91,FP,Secundaria,26729.02,Técnico/a
+1372,España,Baleares,hombre,34,18815.36,Secundaria,Secundaria,18174.64,Técnico/a junior
+1373,España,Murcia,hombre,43,18715.13,Secundaria,FP,19111.8,Técnico/a junior
+1374,España,Cataluña,mujer,27,18446.41,Secundaria,FP,24179.35,Técnico/a
+1375,España,Canarias,hombre,48,14696.68,Secundaria,FP,22754.19,Técnico/a
+1376,España,Murcia,mujer,29,26154.46,FP,FP,34121.82,Especialista
+1377,España,Cataluña,hombre,27,21697.82,Secundaria,Secundaria,,Técnico/a
+1378,España,Cataluña,mujer,50,17440.88,,FP,18688.02,Técnico/a junior
+1379,España,Castilla y León,hombre,51,19382.99,Primaria,Secundaria,17956.48,Técnico/a junior
+1380,España,Comunidad Valenciana,mujer,40,18329.07,Secundaria,Secundaria,22554.2,Técnico/a
+1381,España,Asturias,mujer,41,17898.44,Secundaria,Secundaria,16658.31,Técnico/a junior
+1382,España,Castilla-La Mancha,hombre,39,22306.0,FP,FP,20112.12,Técnico/a junior
+1383,España,País Vasco,mujer,27,22220.14,FP,FP,29883.47,Técnico/a
+1384,España,Canarias,mujer,36,11637.2,Secundaria,Primaria,17140.15,Técnico/a junior
+1385,España,Galicia,mujer,33,30162.59,Postgrado,Postgrado,31927.2,Técnico/a
+1386,España,Castilla y León,hombre,45,15642.22,FP,FP,18191.2,Técnico/a junior
+1387,España,Madrid,hombre,36,17476.41,Primaria,Primaria,24379.65,Técnico/a
+1388,España,Asturias,mujer,50,15855.98,Secundaria,Secundaria,22120.15,Técnico/a
+1389,España,País Vasco,hombre,39,26377.5,FP,FP,25751.57,Técnico/a
+1390,España,Cataluña,hombre,26,20455.17,Secundaria,Secundaria,16788.29,Técnico/a junior
+1391,España,Canarias,mujer,47,13013.56,Sin estudios,Primaria,17010.3,Técnico/a junior
+1392,España,Andalucía,hombre,42,12169.03,Primaria,Secundaria,16439.83,Técnico/a junior
+1393,España,Baleares,hombre,44,27921.21,FP,Universidad,35851.83,Especialista
+1394,España,Comunidad Valenciana,hombre,36,19367.29,Secundaria,Secundaria,22936.6,Técnico/a
+1395,España,Castilla y León,mujer,47,23328.13,Secundaria,FP,21850.43,Técnico/a junior
+1396,España,Madrid,hombre,28,20188.44,Universidad,Universidad,28714.66,Técnico/a
+1397,España,Cataluña,hombre,47,23648.45,Universidad,Postgrado,33623.58,Especialista
+1398,España,Canarias,mujer,40,16006.13,Secundaria,Secundaria,16181.44,Técnico/a junior
+1399,España,Extremadura,mujer,47,16635.01,FP,FP,23800.7,Técnico/a
+1400,España,Galicia,mujer,40,21934.1,FP,FP,24999.03,Técnico/a
+1401,España,Asturias,mujer,25,27697.31,Universidad,Universidad,25843.35,Técnico/a
+1402,España,Asturias,hombre,46,15221.01,Secundaria,Secundaria,21387.32,Técnico/a junior
+1403,España,Andalucía,mujer,49,12567.31,,Primaria,14664.52,Servicios básicos
+1404,España,La Rioja,mujer,26,29476.95,FP,Universidad,35037.8,Especialista
+1405,España,Galicia,hombre,54,15333.72,FP,Universidad,20640.64,Técnico/a junior
+1406,España,Cataluña,mujer,27,15180.85,Primaria,Secundaria,17851.24,Técnico/a junior
+1407,España,Murcia,hombre,50,17316.42,Primaria,Primaria,18694.14,Técnico/a junior
+1408,España,Madrid,mujer,45,24278.68,Secundaria,Secundaria,21838.84,Técnico/a junior
+1409,España,Comunidad Valenciana,mujer,49,27887.74,Secundaria,Secundaria,23587.4,Técnico/a
+1410,España,Murcia,mujer,44,24563.26,Secundaria,FP,21584.63,Técnico/a junior
+1411,España,Baleares,mujer,41,16103.36,FP,FP,22773.03,Técnico/a
+1412,España,Aragón,mujer,44,17739.45,Secundaria,Secundaria,19871.26,Técnico/a junior
+1413,España,Canarias,hombre,46,19208.35,Secundaria,FP,23174.41,Técnico/a
+1414,España,Andalucía,hombre,45,19568.68,Primaria,Primaria,17448.7,Técnico/a junior
+1415,España,Comunidad Valenciana,mujer,54,22453.7,,Secundaria,23270.89,Técnico/a
+1416,España,País Vasco,hombre,53,29523.4,Secundaria,Secundaria,28837.09,Técnico/a
+1417,España,Andalucía,hombre,25,13843.13,Primaria,Primaria,16093.68,Técnico/a junior
+1418,España,Aragón,hombre,44,19959.12,Secundaria,Primaria,16692.97,Técnico/a junior
+1419,España,Cataluña,mujer,30,17246.78,Secundaria,FP,28527.12,Técnico/a
+1420,España,País Vasco,mujer,53,24467.48,FP,Universidad,34339.67,Especialista
+1421,España,Castilla y León,mujer,39,18986.02,FP,FP,19382.57,Técnico/a junior
+1422,España,Cataluña,hombre,50,16927.18,FP,Universidad,30394.36,Técnico/a
+1423,España,Andalucía,hombre,50,15336.55,FP,FP,24233.85,Técnico/a
+1424,España,Asturias,mujer,38,13236.57,Primaria,Primaria,15875.33,Técnico/a junior
+1425,España,País Vasco,mujer,44,16778.39,Secundaria,Secundaria,21843.5,Técnico/a junior
+1426,España,País Vasco,hombre,39,20611.58,Universidad,FP,19481.58,Técnico/a junior
+1427,España,Andalucía,hombre,38,30428.91,Universidad,Universidad,29935.01,Técnico/a
+1428,España,País Vasco,no_binario,49,16783.4,Secundaria,Secundaria,24851.76,Técnico/a
+1429,España,Extremadura,hombre,45,32121.37,Universidad,Universidad,31122.73,Técnico/a
+1430,España,Murcia,mujer,48,17808.66,Secundaria,Primaria,17453.06,Técnico/a junior
+1431,España,Cataluña,hombre,49,14666.76,FP,Universidad,23659.85,Técnico/a
+1432,España,Cataluña,hombre,50,16653.05,Secundaria,Secundaria,22640.99,Técnico/a
+1433,España,Cataluña,mujer,29,18073.82,Secundaria,Primaria,21672.38,Técnico/a junior
+1434,España,Galicia,hombre,30,19884.01,Secundaria,Primaria,20324.69,Técnico/a junior
+1435,España,Asturias,hombre,41,11704.88,Sin estudios,Primaria,11552.71,Servicios básicos
+1436,España,Andalucía,mujer,35,14612.81,Secundaria,Secundaria,18949.22,Técnico/a junior
+1437,España,Cantabria,hombre,40,12819.14,Sin estudios,Sin estudios,20621.32,Técnico/a junior
+1438,España,Galicia,hombre,36,20612.59,Universidad,FP,26448.46,Técnico/a
+1439,España,Baleares,hombre,39,26431.7,FP,Universidad,34581.48,Especialista
+1440,España,Galicia,mujer,47,19344.87,Primaria,Primaria,11876.26,Servicios básicos
+1441,España,País Vasco,mujer,28,18113.53,FP,FP,24404.78,Técnico/a
+1442,España,Aragón,hombre,51,12711.48,Primaria,Sin estudios,20824.42,Técnico/a junior
+1443,España,Galicia,mujer,42,19224.62,Secundaria,FP,27744.33,Técnico/a
+1444,España,Cataluña,hombre,45,13593.17,Primaria,Primaria,19876.83,Técnico/a junior
+1445,España,Murcia,hombre,52,19926.18,Secundaria,Secundaria,18449.12,Técnico/a junior
+1446,España,Baleares,mujer,27,16312.29,Primaria,Primaria,19678.23,Técnico/a junior
+1447,España,Galicia,hombre,46,17507.78,Secundaria,Secundaria,22585.68,Técnico/a
+1448,España,Murcia,hombre,32,25930.88,Secundaria,FP,29801.05,Técnico/a
+1449,España,País Vasco,mujer,47,19296.85,FP,FP,27039.66,Técnico/a
+1450,España,Galicia,hombre,27,21236.21,FP,Universidad,30584.7,Técnico/a
+1451,España,Cataluña,hombre,32,20501.25,Secundaria,Secundaria,23567.21,Técnico/a
+1452,España,Extremadura,hombre,42,27003.53,Universidad,Postgrado,34659.63,Especialista
+1453,España,Murcia,hombre,34,20685.22,,Secundaria,19702.15,Técnico/a junior
+1454,España,Comunidad Valenciana,mujer,49,16522.44,FP,FP,23253.19,Técnico/a
+1455,España,Andalucía,hombre,44,16387.43,Secundaria,Primaria,20938.1,Técnico/a junior
+1456,España,País Vasco,hombre,41,25633.63,Universidad,Universidad,36219.52,Especialista
+1457,España,Galicia,hombre,32,23918.36,FP,Secundaria,18500.13,Técnico/a junior
+1458,España,Galicia,hombre,47,23245.63,FP,Universidad,24673.82,Técnico/a
+1459,España,Canarias,mujer,35,15339.05,Secundaria,Primaria,20875.05,Técnico/a junior
+1460,España,Galicia,hombre,53,20149.1,FP,Universidad,27583.89,Técnico/a
+1461,España,Castilla-La Mancha,mujer,29,18440.51,Primaria,Sin estudios,18008.26,Técnico/a junior
+1462,España,Galicia,mujer,50,24688.76,FP,FP,26559.04,Técnico/a
+1463,España,Aragón,mujer,37,12610.54,Sin estudios,Primaria,22038.01,Técnico/a
+1464,España,Galicia,hombre,45,23147.21,Universidad,Universidad,27130.8,Técnico/a
+1465,España,País Vasco,hombre,47,22653.96,FP,Universidad,35725.94,Especialista
+1466,España,Andalucía,hombre,29,35994.17,Universidad,Universidad,36910.27,Especialista
+1467,España,País Vasco,hombre,48,26507.34,Secundaria,Secundaria,21197.9,Técnico/a junior
+1468,España,Castilla-La Mancha,hombre,51,15483.64,FP,FP,18356.77,Técnico/a junior
+1469,España,Murcia,hombre,37,14473.53,Secundaria,Secundaria,16388.48,Técnico/a junior
+1470,España,Madrid,hombre,30,20404.18,,FP,30396.43,Técnico/a
+1471,España,Comunidad Valenciana,mujer,53,20699.97,FP,FP,28168.33,Técnico/a
+1472,España,La Rioja,mujer,29,18244.53,FP,FP,23873.73,Técnico/a
+1473,España,Murcia,hombre,33,19031.55,FP,Universidad,24492.47,Técnico/a
+1474,España,Castilla-La Mancha,hombre,51,23735.26,FP,FP,22214.14,Técnico/a
+1475,España,Castilla y León,mujer,40,15990.87,Secundaria,Secundaria,23177.43,Técnico/a
+1476,España,Galicia,mujer,26,33105.23,Universidad,Universidad,29932.68,Técnico/a
+1477,España,Madrid,hombre,25,19894.25,Secundaria,Secundaria,23103.09,Técnico/a
+1478,España,Madrid,mujer,32,15326.59,Secundaria,Secundaria,29440.25,Técnico/a
+1479,España,Madrid,hombre,52,19408.28,Secundaria,Secundaria,21402.52,Técnico/a junior
+1480,España,Cataluña,hombre,43,17746.25,FP,Secundaria,17933.17,Técnico/a junior
+1481,España,Madrid,mujer,54,21744.26,Universidad,FP,21147.9,Técnico/a junior
+1482,España,Aragón,mujer,35,14682.28,FP,Universidad,32231.01,Especialista
+1483,España,Comunidad Valenciana,hombre,52,17889.96,Secundaria,Secundaria,21270.68,Técnico/a junior
+1484,España,Andalucía,hombre,36,18301.53,Secundaria,Secundaria,17193.92,Técnico/a junior
+1485,España,Castilla y León,hombre,36,22421.49,,FP,24078.45,Técnico/a
+1486,España,Castilla y León,hombre,31,15107.56,FP,FP,18733.86,Técnico/a junior
+1487,España,Castilla-La Mancha,mujer,50,18058.08,Secundaria,Secundaria,13603.69,Servicios básicos
+1488,España,Galicia,hombre,37,14803.1,FP,FP,23659.17,Técnico/a
+1489,España,Castilla-La Mancha,hombre,51,21270.63,Universidad,Universidad,27730.23,Técnico/a
+1490,España,Cataluña,hombre,32,18297.38,FP,FP,27848.75,Técnico/a
+1491,España,Canarias,mujer,53,16329.79,Primaria,Primaria,17436.49,Técnico/a junior
+1492,España,Castilla-La Mancha,hombre,53,19175.68,Primaria,Secundaria,21088.41,Técnico/a junior
+1493,España,Canarias,hombre,46,17439.11,FP,FP,14407.43,Servicios básicos
+1494,España,Andalucía,mujer,52,14945.26,Secundaria,Secundaria,21902.83,Técnico/a junior
+1495,España,Extremadura,mujer,50,21627.11,FP,Universidad,24008.13,Técnico/a
+1496,España,Galicia,hombre,54,19956.12,FP,FP,20585.59,Técnico/a junior
+1497,España,Extremadura,mujer,33,34470.07,Universidad,Universidad,33367.21,Especialista
+1498,España,Cataluña,mujer,31,27043.06,FP,FP,23112.67,Técnico/a
+1499,España,Castilla-La Mancha,mujer,50,21122.32,FP,Universidad,25487.51,Técnico/a
+1500,España,Murcia,hombre,45,19606.29,Primaria,Primaria,16457.9,Técnico/a junior
