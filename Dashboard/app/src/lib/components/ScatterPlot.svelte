@@ -48,6 +48,7 @@
       .append('circle')
       .attr('cx', d=>x(d.ingresos_padres))
       .attr('cy', d=>y(d.ingresos_hijo))
+      .attr('fill', d => d.ingresos_hijo > 25000 ? 'red' : 'blue')
       .attr('r', 3)
       .append('title').text(d => `${d.region}`);
 
