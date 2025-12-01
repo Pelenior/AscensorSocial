@@ -12,7 +12,7 @@
   onMount(async () => {
     try {
       summary = await getSummary();
-      points = await getPoints(800);
+      points = await getPoints();
     } catch (e) {
       error = e.message || "Error cargando datos";
     } finally {
@@ -26,11 +26,7 @@
     <div>
       <h1 class="text-2xl font-bold">Ascensor Social — Dashboard</h1>
       <p class="text-slate-600">
-        Svelte + D3 + Tailwind &middot; API: <code
-          >{typeof __API_URL__ !== "undefined"
-            ? __API_URL__
-            : "http://localhost:3000"}</code
-        >
+        Svelte + D3 + Tailwind
       </p>
     </div>
   </header>
@@ -42,15 +38,19 @@
   {:else}
     <section class="grid md:grid-cols-3 gap-4">
       <div class="bg-white p-4 rounded-2xl shadow">
-        <div class="text-slate-500 text-sm">muestras</div>
+        <div class="text-slate-500 text-sm">muestras (simuladas)</div>
         <div class="text-3xl font-semibold">{summary.n}</div>
       </div>
+  
       <div class="bg-white p-4 rounded-2xl shadow">
-        <div class="text-slate-500 text-sm">
+        <div class="text-slate-500 text-sm mb-2">
           correlación (ingresos padres-hijo)
         </div>
-        <div class="text-3xl font-semibold">{summary.corr}</div>
+        <div class="flex items-center gap-4">
+          <div class="text-3xl font-semibold">{summary.corr}</div>
+        </div>
       </div>
+
       <div class="bg-white p-4 rounded-2xl shadow">
         <div class="text-slate-500 text-sm">regiones</div>
         <div class="text-3xl font-semibold">
@@ -78,9 +78,14 @@
       </div>
     </section>
 
-    <footer class="text-sm text-slate-500">
-      Datos cargados desde el archivo
-      <code>/Dashboard/data/ascensor_social.csv</code>.
+    <footer class="text-sm text-slate-500 mt-10 border-t pt-6">
+      <p class="font-semibold mb-2">Datos generados a partir de los archivos:</p>
+      <ul class="font-mono text-xs space-y-1">
+        <li>1. ranking_ccaa_centil_padres_20.csv</li>
+        <li>2. distribucion_quintiles_nacional_padres_hijos.csv</li>
+        <li>3. conversor_centiles_a_euros_padres.csv</li>
+        <li>4. conversor_centiles_a_euros_hijos.csv</li>
+      </ul>
     </footer>
   {/if}
 </div>
