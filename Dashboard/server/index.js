@@ -8,52 +8,115 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Método de carga genérico para cualquier CSV con columnas numéricas específicas
-async function cargarCSV(fileName, numericColumns = ['ingresos_padres', 'ingresos_hijo']) {
+async function cargarCSV(fileName) {
   const __dirname = path.dirname(fileURLToPath(import.meta.url));
   try {
-    // Path del csv
     const csvPath = path.join(__dirname, '..', 'data', fileName);
-    const fileContent = await fs.readFile(csvPath, 'utf-8');
+    let fileContent = await fs.readFile(csvPath, 'utf-8');
+    
+    fileContent = fileContent.replace(/^\uFEFF/, "");
+
     const lines = fileContent.trim().replace(/\r/g, "").split('\n');
     const header = lines.shift().split(',').map(h => h.trim());
 
-    // Control de errores por si faltan columnas
-    const requiredColumns = ['region', 'ingresos_padres', 'ingresos_hijo'];
-    if (!requiredColumns.every(col => header.includes(col))) {
-      throw new Error(`El archivo CSV debe contener las columnas: ${requiredColumns.join(', ')}. Columnas encontradas: ${header.join(', ')}`);
-    }
-
-    const data = lines.map((line, index) => {
+    return lines.map((line, index) => {
       const values = line.split(',');
-      const entry = { id: index + 1 };
+      const entry = {};
+      
       header.forEach((key, i) => {
-        const value = values[i] ? values[i].trim() : '';
-        if (numericColumns.includes(key)) {
-          const num = parseFloat(value);
-          // Solo asignamos si es un número válido, de lo contrario queda undefined
-          if (!isNaN(num)) {
-            entry[key] = num;
-          }
+        const cleanKey = key.trim();
+        const valString = values[i] ? values[i].trim() : ''; 
+
+        const num = Number(valString);
+        
+        if (valString !== '' && !isNaN(num)) {
+          entry[cleanKey] = num;
         } else {
-          entry[key] = value;
+          entry[cleanKey] = valString;
         }
       });
       return entry;
     });
-    console.log(`Loaded ${data.length} records from CSV.`);
-    // Filtramos filas donde las columnas numéricas clave no son válidas
-    return data.filter(d => numericColumns.every(col => typeof d[col] === 'number'));
   } catch (error) {
-    // Devuelve un array vacío si hay un error
-    console.error(`Error loading data from ${fileName}:`, error);
+    console.error(`Error loading ${fileName}:`, error);
     return [];
   }
 }
 
-// Helpers
-function pearson(xs, ys) {
-  const n = Math.min(xs.length, ys.length);
+let seed = 12345; 
+function seededRandom() {
+  const x = Math.sin(seed++) * 10000;
+  return x - Math.floor(x);
+}
+
+function processConverters(rawRows) {
+  const map = {};
+  const counts = {};
+  rawRows.forEach(row => {
+    const c = row.centil;
+    const r = row.renta;
+    if (typeof c === 'undefined' || typeof r === 'undefined') return;
+    if (!map[c]) { map[c] = 0; counts[c] = 0; }
+    map[c] += r;
+    counts[c] += 1;
+  });
+  const finalMap = {};
+  for (let c = 1; c <= 100; c++) {
+    if (map[c]) finalMap[c] = map[c] / counts[c];
+    else finalMap[c] = 0;
+  }
+  return finalMap;
+}
+
+function generateSimulatedPoints(matrix, convPadres, convHijos, totalPoints = 2000) {
+  seed = 12345; 
+  
+  const quintileKeys = ["0-20", "20-40", "40-60", "60-80", "80-100"];
+  const points = [];
+
+  if (!matrix || matrix.length === 0) {
+    console.error("Critical Error: Matrix data is empty.");
+    return [];
+  }
+
+  for (let i = 0; i < totalPoints; i++) {
+    const pQuintilIdx = Math.floor(seededRandom() * 5);
+    const pQuintileName = quintileKeys[pQuintilIdx];
+    
+    const row = matrix.find(r => r.quintil_padres === pQuintileName);
+    
+    if (!row) continue;
+    
+    const rand = seededRandom() * 100;
+    let accum = 0;
+    let cQuintilIdx = 0;
+    
+    for (let k = 0; k < quintileKeys.length; k++) {
+      const key = quintileKeys[k];
+      accum += (row[key] || 0);
+      if (rand <= accum) {
+        cQuintilIdx = k;
+        break;
+      }
+    }
+
+    const pCentil = (pQuintilIdx * 20) + Math.floor(seededRandom() * 20) + 1;
+    const cCentil = (cQuintilIdx * 20) + Math.floor(seededRandom() * 20) + 1;
+
+    points.push({
+      ingresos_padres: convPadres[pCentil] || 0,
+      ingresos_hijo: convHijos[cCentil] || 0,
+      region: 'Nacional'
+    });
+  }
+  return points;
+}
+
+function pearson(data) {
+  const n = data.length;
+  if (n === 0) return 0;
+  const xs = data.map(d => d.ingresos_padres);
+  const ys = data.map(d => d.ingresos_hijo);
   const mx = xs.reduce((a, b) => a + b, 0) / n;
   const my = ys.reduce((a, b) => a + b, 0) / n;
   let num = 0, dx = 0, dy = 0;
@@ -65,75 +128,50 @@ function pearson(xs, ys) {
   return num / Math.sqrt(dx * dy);
 }
 
-function mobilityIndex(p, c) {
-  // 1 - |delta|/p (clamped >=0). Higher is "better" (less inheritance)
-  return Math.max(0, 1 - Math.abs(c - p) / Math.max(1, p));
-}
+// --- SERVIDOR ---
 
 async function startServer() {
-  // Objeto para almacenar todos nuestros datasets
   const DATASETS = {};
 
-  // Cargar todos los datasets al inicio
-  DATASETS['ascensor_social'] = await cargarCSV('ascensor_social.csv', ['ingresos_padres', 'ingresos_hijo']);
-  DATASETS['curva_movilidad_nacional'] = await cargarCSV('curva_movilidad_nacional.csv', ['centil_padres', 'centil_hijo', 'centil_hijo_loess']);
+  console.log("Loading datasets...");
+
+  const [ranking, matrix, rawConvP, rawConvH] = await Promise.all([
+    cargarCSV('ranking_ccaa_centil_padres_20.csv'),
+    cargarCSV('distribucion_quintiles_nacional_padres_hijos.csv'),
+    cargarCSV('conversor_centiles_a_euros_padres.csv'),
+    cargarCSV('conversor_centiles_a_euros_hijos.csv')
+  ]);
+
+  const convPadres = processConverters(rawConvP);
+  const convHijos = processConverters(rawConvH);
+  
+  const simulatedPoints = generateSimulatedPoints(matrix, convPadres, convHijos, 1000);
+  
+  console.log(`Simulated ${simulatedPoints.length} points (Deterministic).`);
+  console.log(`Loaded ${ranking.length} regions for Bar Chart.`);
+
+  DATASETS['ranking'] = ranking;
+  DATASETS['points'] = simulatedPoints;
 
   // --- API ---
 
-  // Nuevo endpoint para listar los datasets disponibles
-  app.get('/api/v1/datasets', (req, res) => {
-    res.json(Object.keys(DATASETS));
-  });
-
   app.get('/api/v1/points', (req, res) => {
-    const datasetName = req.query.dataset || 'ascensor_social'; // Default a 'ascensor_social'
-    const DB = DATASETS[datasetName];
-
-    if (!DB || DB.length === 0) {
-      return res.status(500).json({ error: "Data not loaded or empty." });
-    }
-    // Ya no limitamos los datos, enviamos todo el dataset solicitado
-    res.json(DB);
+    res.json(DATASETS['points']);
   });
 
   app.get('/api/v1/summary', (req, res) => {
-    const datasetName = req.query.dataset || 'ascensor_social';
-    const DB = DATASETS[datasetName];
+    const points = DATASETS['points'];
+    const rankingData = DATASETS['ranking'];
 
-    if (!DB || DB.length === 0) {
-      return res.status(500).json({ error: "Data not loaded or empty." });
-    }
+    const corr = pearson(points);
 
-    // Este endpoint solo tiene sentido para 'ascensor_social'
-    if (datasetName !== 'ascensor_social') {
-      return res.json({
-        n: DB.length,
-        corr: null,
-        regionMobility: []
-      });
-    }
-
-    const xs = DB.map(d => d.ingresos_padres);
-    const ys = DB.map(d => d.ingresos_hijo);
-    const corr = pearson(xs, ys);
-
-    const byRegion = {};
-    DB.forEach(d => {
-      if (!d.region) return; // Ignorar si no hay región
-      const m = mobilityIndex(d.ingresos_padres, d.ingresos_hijo);
-      if (!byRegion[d.region]) byRegion[d.region] = { count: 0, sumMob: 0 };
-      byRegion[d.region].count += 1;
-      byRegion[d.region].sumMob += m;
-    });
-    const regionMobility = Object.entries(byRegion)
-      .map(([region, obj]) => ({
-        region,
-        movilidad: Number((obj.sumMob / obj.count).toFixed(3))
-      }))
-      .sort((a, b) => b.movilidad - a.movilidad);
+    const regionMobility = rankingData.map(d => ({
+      region: d.ccaa,
+      movilidad: d.centil_hijo_loess / 100 
+    })).sort((a, b) => b.movilidad - a.movilidad);
 
     res.json({
-      n: DB.length,
+      n: points.length,
       corr: Number(corr.toFixed(3)),
       regionMobility
     });

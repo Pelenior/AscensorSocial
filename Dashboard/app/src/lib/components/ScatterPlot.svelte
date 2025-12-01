@@ -1,7 +1,7 @@
 <script>
   import * as d3 from "d3";
   import { onMount, onDestroy } from "svelte";
-  export let data = []; // [{ingresos_padres, ingresos_hijo, region}]
+  export let data = []; 
   export let title = "";
 
   let container;
@@ -28,6 +28,8 @@
       .append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
+    if (!data || data.length === 0) return;
+
     const x = d3
       .scaleLinear()
       .domain(d3.extent(data, (d) => d.ingresos_padres))
@@ -40,13 +42,18 @@
       .nice()
       .range([innerH, 0]);
 
+    const colorScale = d3.scaleLinear()
+      .domain([0.6, 1, 1.4]) 
+      .range(["tomato", "#e5e7eb", "steelblue"])
+      .clamp(true);
+
     g.append("g")
       .attr("transform", `translate(0,${innerH})`)
       .call(d3.axisBottom(x));
 
     g.append("g").call(d3.axisLeft(y));
 
-    const pts = g.append("g").attr("opacity", 0.8);
+    const pts = g.append("g").attr("opacity", 0.9);
     pts
       .selectAll("circle")
       .data(data)
@@ -54,46 +61,25 @@
       .append("circle")
       .attr("cx", (d) => x(d.ingresos_padres))
       .attr("cy", (d) => y(d.ingresos_hijo))
-      .attr("fill", (d) =>
-        d.ingresos_hijo >= d.ingresos_padres ? "steelblue" : "tomato",
-      )
-      .attr("r", 3)
+      .attr("fill", (d) => {
+        const parentIncome = d.ingresos_padres || 1;
+        const ratio = d.ingresos_hijo / parentIncome;
+        return colorScale(ratio);
+      })
+      .attr("r", 3.5)
       .append("title")
-      .text((d) => `${d.region}`);
+      .text((d) => `Región: ${d.region}\nPadres: ${d.ingresos_padres}€\nHijo: ${d.ingresos_hijo}€`);
 
     g.append("text")
       .attr("x", 0)
       .attr("y", -8)
       .attr("font-weight", "600")
       .text(title);
-
-    // quick regression line (least squares)
-    const n = data.length;
-    const meanX = d3.mean(data, (d) => d.ingresos_padres);
-    const meanY = d3.mean(data, (d) => d.ingresos_hijo);
-    let num = 0,
-      den = 0;
-    data.forEach((d) => {
-      num += (d.ingresos_padres - meanX) * (d.ingresos_hijo - meanY);
-      den += (d.ingresos_padres - meanX) ** 2;
-    });
-    const m = num / den;
-    const b = meanY - m * meanX;
-    const x1 = x.domain()[0],
-      x2 = x.domain()[1];
-    const y1 = m * x1 + b,
-      y2 = m * x2 + b;
-    g.append("line")
-      .attr("x1", x(x1))
-      .attr("y1", y(y1))
-      .attr("x2", x(x2))
-      .attr("y2", y(y2))
-      .attr("stroke-width", 2);
   }
 
-  function onResize() {
-    render();
-  }
+  function onResize() { render(); }
+
+  $: data, render();
 
   onMount(() => {
     render();

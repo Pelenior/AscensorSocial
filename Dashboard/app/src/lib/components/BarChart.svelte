@@ -1,7 +1,7 @@
 <script>
   import * as d3 from "d3";
   import { onMount, onDestroy } from "svelte";
-  export let data = []; // [{label, value}]
+  export let data = [];
   export let title = "";
 
   let container;
@@ -28,6 +28,8 @@
       .append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
+    if (!data || data.length === 0) return;
+
     const x = d3
       .scaleBand()
       .domain(data.map((d) => d.label))
@@ -40,8 +42,6 @@
       .nice()
       .range([innerH, 0]);
 
-    // Escala de color para la movilidad.
-    // d3.interpolateBlues va de un color claro (para valores bajos) a oscuro (para valores altos).
     const colorScale = d3
       .scaleSequential()
       .domain([
@@ -76,9 +76,9 @@
       .text(title);
   }
 
-  function onResize() {
-    render();
-  }
+  function onResize() { render(); }
+
+  $: data, render();
 
   onMount(() => {
     render();
